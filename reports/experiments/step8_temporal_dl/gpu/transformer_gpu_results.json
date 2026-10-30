@@ -1,0 +1,44 @@
+{
+  "gpu": {
+    "model": "Transformer",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+    "pytorch_version": "2.11.0+cu128",
+    "cuda_version": "12.8",
+    "parameter_count": 68033,
+    "training_time_seconds": 29.90538350000861,
+    "inference_time_seconds": 0.0780598999990616,
+    "inference_time_per_sample": 2.9714465169037533e-05,
+    "mae": 17.793436733656254,
+    "rmse": 25.123280649910186,
+    "phm_score": 61942.23448119159,
+    "seed": 42,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "optimizer": "Adam",
+    "loss": "MSELoss",
+    "window_size": 30,
+    "num_features": 15,
+    "checkpoint": "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step8_temporal_dl\\gpu\\models\\transformer_gpu.pt",
+    "command": "$env:PYTHONPATH=\"src\"; .\\.venv\\Scripts\\python.exe scripts\\run_step8_5_gpu_transformer.py"
+  },
+  "cpu_reference": {
+    "mae": 17.21088359943124,
+    "rmse": 24.590212497395246,
+    "phm_score": 98955.54007371175,
+    "training_time_seconds": 380.92921259999275,
+    "inference_time_seconds": 0.19913540000561625,
+    "parameter_count": 68033
+  },
+  "comparison": {
+    "training_speedup": 12.737813999271504,
+    "inference_speedup": 2.5510588664347527,
+    "mae_absolute_difference": 0.5825531342250123,
+    "mae_percentage_difference": 3.384795038903544,
+    "rmse_absolute_difference": 0.5330681525149394,
+    "rmse_percentage_difference": 2.1678062057064595,
+    "phm_absolute_difference": -37013.305592520155,
+    "phm_percentage_difference": -37.40397512352419
+  }
+}

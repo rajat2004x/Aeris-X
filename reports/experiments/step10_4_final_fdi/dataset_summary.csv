@@ -1,0 +1,5 @@
+dataset,train_engines,calibration_engines,final_engines,train_rows,test_rows,condition_count,sensors
+FD001,60,20,20,20631,13096,1423,21
+FD002,156,52,52,53759,33991,9824,21
+FD003,60,20,20,24720,16596,1479,21
+FD004,149,50,50,61249,41214,10232,21

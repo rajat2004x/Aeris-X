@@ -1,0 +1,4 @@
+severity,count,detection_rate
+HIGH,22,1.0
+LOW,33,1.0
+MEDIUM,33,1.0

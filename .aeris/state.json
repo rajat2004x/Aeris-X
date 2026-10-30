@@ -1,0 +1,21 @@
+{
+  "current_step": "7",
+  "current_step_name": "Baseline ML",
+  "completed_steps": ["1", "2", "3", "4", "5", "6", "10.1", "10.2"],
+  "pending_steps": ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
+  "historical_out_of_order_steps": ["10.1", "10.2"],
+  "last_validation": {
+    "status": "not_run",
+    "details": "Initialized by roadmap-control implementation"
+  },
+  "artifacts": {
+    "step_6": "data/processed/cmapss_fd001",
+    "step_10_1": "reports/experiments/step10_1_fdi_improved",
+    "step_10_2": "reports/experiments/step10_2_fdi_multidataset"
+  },
+  "tests": {
+    "status": "not_run",
+    "command": "PYTHONPATH=src .venv/Scripts/python.exe -m pytest tests -q"
+  },
+  "updated_at": "2026-10-19T03:18:00+05:30"
+}

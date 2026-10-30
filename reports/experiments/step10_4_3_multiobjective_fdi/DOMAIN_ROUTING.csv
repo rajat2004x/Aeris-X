@@ -1,0 +1,5 @@
+dataset,domain_distance,route,detector
+FD001,0.0,KNOWN_OPERATING_ENVELOPE,domain_router -> historical_step10_2_2
+FD002,0.141,SHIFTED_OPERATING_ENVELOPE,domain_router -> step10_4_2_residual
+FD003,0.0,KNOWN_OPERATING_ENVELOPE,domain_router -> step10_4_2_residual
+FD004,0.1252,SHIFTED_OPERATING_ENVELOPE,domain_router -> step10_4_2_residual

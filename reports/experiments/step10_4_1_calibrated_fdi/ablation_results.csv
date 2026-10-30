@@ -1,0 +1,7 @@
+component,status
+historical_control,RUN
+condition_residual,RUN
+condition_residual_temporal,RUN
+peer_consistency,RUN
+sensor_local_features,RUN
+calibrated_fusion,RUN

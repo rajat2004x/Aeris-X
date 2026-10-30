@@ -1,0 +1,13 @@
+{
+  "autoencoder": {
+    "type": "LSTM sequence autoencoder",
+    "hidden_size": 64,
+    "epochs": 12
+  },
+  "classifier": {
+    "type": "RandomForestClassifier",
+    "estimators": 100,
+    "seed": 42
+  },
+  "device": "cuda"
+}

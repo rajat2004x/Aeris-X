@@ -1,0 +1,7 @@
+factor,historical_value,step10_3_value,effect_on_f1,effect_on_fpr,status
+detector feature function,adaptive.py temporal_sensor_features + soft_evidence,same helper functions,0.0,0.0,IDENTICAL
+input representation,15 processed FD001 sensors,21 raw sensors,not isolated,not isolated,DIFFERENT
+scaler,historical FD001 scaler / processed arrays,per-dataset train-window scaler,not isolated,not isolated,DIFFERENT
+validation split,array_split validation in half,60/20/20 engine split,not isolated,not isolated,DIFFERENT
+threshold,selected grid with FPR <= 0.10,FD001 calibration 95th percentile,not isolated,not isolated,DIFFERENT
+fault scenarios,40 known + 48 known/unknown final scenarios,100 final scenarios per dataset,not isolated,not isolated,DIFFERENT

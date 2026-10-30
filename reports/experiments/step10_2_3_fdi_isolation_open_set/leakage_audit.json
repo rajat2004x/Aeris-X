@@ -1,0 +1,9 @@
+{
+  "detector_frozen": true,
+  "training": "X_train plus development known faults",
+  "calibration": "normal calibration plus development scenarios",
+  "final": "disjoint normal and known/unknown scenarios",
+  "unknown_types_in_training": [],
+  "final_labels_used_for_selection": false,
+  "peer_models_fit_on": "X_train only"
+}

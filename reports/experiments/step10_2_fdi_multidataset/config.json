@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "known_faults": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "unknown_faults": [
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ],
+  "threshold_percentiles": [
+    90.0,
+    95.0,
+    97.5,
+    99.0
+  ],
+  "selected_percentile": 95.0,
+  "device": "cuda",
+  "training_seconds": 18.38197340001352
+}

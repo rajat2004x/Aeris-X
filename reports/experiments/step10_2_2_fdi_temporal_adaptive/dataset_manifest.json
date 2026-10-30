@@ -1,0 +1,11 @@
+{
+  "used": [
+    "C-MAPSS FD001"
+  ],
+  "unavailable": [
+    "FD002",
+    "FD003",
+    "FD004",
+    "ESA anomaly dataset"
+  ]
+}

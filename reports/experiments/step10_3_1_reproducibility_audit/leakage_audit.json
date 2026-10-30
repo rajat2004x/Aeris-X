@@ -1,0 +1,6 @@
+{
+  "historical_threshold_fit_on_final_labels": false,
+  "reproduction_uses_final_labels_for_threshold": false,
+  "historical_and_reproduction_engine_overlap": "not applicable; processed arrays are pre-windowed",
+  "step10_3_audit_only": true
+}

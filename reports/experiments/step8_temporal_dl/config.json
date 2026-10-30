@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "epochs": 30,
+  "window_size": 30,
+  "num_features": 15,
+  "optimizer": "Adam",
+  "loss": "MSELoss",
+  "device": "cpu"
+}

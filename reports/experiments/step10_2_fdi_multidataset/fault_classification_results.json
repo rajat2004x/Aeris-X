@@ -1,0 +1,16 @@
+{
+  "known_fault_macro_f1": 0.13636363636363638,
+  "unknown_fault_count": 40,
+  "unknown_detection_recall": 0.0,
+  "unknown_precision": 0.0,
+  "known_unknown_confusion_matrix": [
+    [
+      40,
+      0
+    ],
+    [
+      40,
+      0
+    ]
+  ]
+}

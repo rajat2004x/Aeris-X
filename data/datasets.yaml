@@ -1,0 +1,26 @@
+datasets:
+  - name: C-MAPSS FD001
+    source: NASA Prognostics Data Repository
+    domain: turbofan engine degradation
+    status: available
+    local_path: data/processed/cmapss_fd001
+    channels: 15
+    labels: synthetic sensor-fault labels for controlled evaluation only
+  - name: C-MAPSS FD002
+    source: NASA Prognostics Data Repository
+    domain: turbofan engine degradation
+    status: unavailable_locally
+    note: Manual download required; no fabricated cross-dataset result.
+  - name: C-MAPSS FD003
+    source: NASA Prognostics Data Repository
+    domain: turbofan engine degradation
+    status: unavailable_locally
+  - name: C-MAPSS FD004
+    source: NASA Prognostics Data Repository
+    domain: turbofan engine degradation
+    status: unavailable_locally
+  - name: ESA anomaly dataset
+    source: ESA anomaly detection benchmark
+    domain: satellite telemetry
+    status: unavailable_locally
+    note: Requires separately verified download and license review.

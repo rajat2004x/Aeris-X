@@ -1,0 +1,24 @@
+{
+  "training_dataset": "C-MAPSS FD001 X_train",
+  "calibration_dataset": "C-MAPSS FD001 first half of X_validation",
+  "final_normal_dataset": "C-MAPSS FD001 second half of X_validation",
+  "development_fault_scenarios": 40,
+  "final_fault_scenarios": 80,
+  "scenario_overlap": false,
+  "fault_training_types": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "unknown_test_types": [
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ],
+  "thresholds_fit_on_final_labels": false,
+  "prepared_arrays_refit": false
+}

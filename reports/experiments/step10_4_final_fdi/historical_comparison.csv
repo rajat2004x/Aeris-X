@@ -1,0 +1,4 @@
+experiment,scope,f1
+Step 10.2.2,historical FD001,0.8224
+Step 10.3.1,corrected FD001-FD004 frozen,historical audit
+Step 10.4 final,condition residual + temporal + peer,0.06417757745694946

@@ -1,0 +1,20 @@
+{
+  "threshold": 0.6113829673454165,
+  "precision": 0.6984126984126984,
+  "recall": 1.0,
+  "f1": 0.822429906542056,
+  "fpr": 0.028941355674028942,
+  "fnr": 0.0,
+  "roc_auc": 0.9843176625354843,
+  "pr_auc": 0.7155209101040626,
+  "detection_rate": 1.0,
+  "status": "REPRODUCED",
+  "normal_windows": 1313,
+  "fault_windows": 88,
+  "detected": 88,
+  "missed": 0,
+  "calibration_sample_count": 1314,
+  "evaluation_sample_count": 1401,
+  "development_sample_count": 40,
+  "feature_count": 15
+}

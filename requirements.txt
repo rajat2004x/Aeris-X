@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+plotly
+jupyter
+pyarrow
+duckdb
+pyyaml
+joblib
+tqdm
+pytest
+torch

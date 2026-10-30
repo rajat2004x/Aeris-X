@@ -1,0 +1,8 @@
+component,status
+global_baseline,RUN
+condition_baseline,RUN
+adaptive_threshold,RUN
+temporal_persistence,NOT RUN
+peer_consistency,NOT RUN
+sensor_local_features,NOT RUN
+ensemble,NOT RUN

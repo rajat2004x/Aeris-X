@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Models
+models/*
+
+# Environment
+.env
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache
+*.pyd
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+reports/experiments/step7_classical_ml/models/random_forest.joblib

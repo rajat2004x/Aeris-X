@@ -1,0 +1,28 @@
+[
+  {
+    "threshold":6.0403720447,
+    "precision":0.2424242424,
+    "recall":1.0,
+    "f1":0.3902439024,
+    "fpr":0.2094440213,
+    "fnr":0.0,
+    "roc_auc":0.8952779893,
+    "pr_auc":0.2424242424,
+    "detection_rate":1.0,
+    "detector":"adaptive_robust_z",
+    "training_time_seconds":2.7865937
+  },
+  {
+    "threshold":0.6113829673,
+    "precision":0.6984126984,
+    "recall":1.0,
+    "f1":0.8224299065,
+    "fpr":0.0289413557,
+    "fnr":0.0,
+    "roc_auc":0.9843176625,
+    "pr_auc":0.7155209101,
+    "detection_rate":1.0,
+    "detector":"soft_temporal_adaptive",
+    "training_time_seconds":2.7865937
+  }
+]

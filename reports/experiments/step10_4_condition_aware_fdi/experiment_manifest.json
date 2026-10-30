@@ -1,0 +1,20 @@
+{
+  "experiment_id": "step10_4_condition_aware_fdi",
+  "seed": 42,
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "window_size": 30,
+  "normalization": "global and condition-specific robust baseline",
+  "fault_types": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "runtime_seconds": 114.45309780000025
+}

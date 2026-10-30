@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "device": "cuda",
+  "dataset": "C-MAPSS FD001",
+  "frozen_detector": "Step 10.2.2 soft temporal adaptive",
+  "peer_models_fit_on": "X_train only"
+}

@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "window_size": 30,
+  "num_features": 15,
+  "batch_size": 128,
+  "autoencoder": {
+    "type": "LSTM sequence autoencoder",
+    "hidden_size": 32,
+    "epochs": 8,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "MSELoss"
+  },
+  "threshold": {
+    "method": "95th percentile of normal validation reconstruction errors",
+    "sustained_detection_windows": 1
+  },
+  "fault_matrix": {
+    "types": [
+      "BIAS",
+      "DRIFT",
+      "STUCK_AT",
+      "NOISE",
+      "INTERMITTENT_DROPOUT"
+    ],
+    "severities": {
+      "low": 0.25,
+      "medium": 0.5,
+      "high": 1.0
+    },
+    "onsets": {
+      "early": 0.2,
+      "middle": 0.5,
+      "late": 0.75
+    },
+    "sensor_indices": [
+      0,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "model": "XGBoost",
+    "model_type": "classical_reference",
+    "mae": 18.698258043515352,
+    "rmse": 26.407636014342945,
+    "phm_score": 118477.09623510219,
+    "training_time_seconds": NaN,
+    "inference_time_seconds": NaN,
+    "inference_time_per_sample": NaN,
+    "parameter_count": NaN,
+    "trainable_parameter_count": NaN,
+    "model_size_mb": NaN,
+    "device": "reference"
+  },
+  {
+    "model": "LSTM",
+    "model_type": "temporal_deep_learning",
+    "mae": 18.805197034855055,
+    "rmse": 26.913817937357877,
+    "phm_score": 139944.81084747688,
+    "training_time_seconds": 1369.1768770999915,
+    "inference_time_seconds": 2.1547408000042196,
+    "inference_time_per_sample": 0.0008202287019429842,
+    "parameter_count": 206465.0,
+    "trainable_parameter_count": 206465.0,
+    "model_size_mb": 0.7876014709472656,
+    "device": "cpu"
+  },
+  {
+    "model": "GRU",
+    "model_type": "temporal_deep_learning",
+    "mae": 18.803085926462135,
+    "rmse": 26.879738544525924,
+    "phm_score": 116200.21732148116,
+    "training_time_seconds": 672.4720995999814,
+    "inference_time_seconds": 1.0190505999780726,
+    "inference_time_per_sample": 0.00038791419869740103,
+    "parameter_count": 154881.0,
+    "trainable_parameter_count": 154881.0,
+    "model_size_mb": 0.5908241271972656,
+    "device": "cpu"
+  },
+  {
+    "model": "TCN",
+    "model_type": "temporal_deep_learning",
+    "mae": 20.893047178930594,
+    "rmse": 28.05890098945839,
+    "phm_score": 190438.4462818513,
+    "training_time_seconds": 284.38086960001965,
+    "inference_time_seconds": 0.7401708999823313,
+    "inference_time_per_sample": 0.00028175519603438573,
+    "parameter_count": 123457.0,
+    "trainable_parameter_count": 123457.0,
+    "model_size_mb": 0.4709510803222656,
+    "device": "cpu"
+  },
+  {
+    "model": "Transformer",
+    "model_type": "temporal_deep_learning",
+    "mae": 17.21088359943124,
+    "rmse": 24.590212497395246,
+    "phm_score": 98955.54007371175,
+    "training_time_seconds": 380.92921259999275,
+    "inference_time_seconds": 0.19913540000561625,
+    "inference_time_per_sample": 7.580334983083984e-05,
+    "parameter_count": 68033.0,
+    "trainable_parameter_count": 68033.0,
+    "model_size_mb": 0.2595252990722656,
+    "device": "cpu"
+  }
+]

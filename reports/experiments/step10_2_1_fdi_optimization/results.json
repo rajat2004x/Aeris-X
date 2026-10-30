@@ -1,0 +1,13 @@
+[
+  {
+    "detector":"persistent_adaptive_statistical",
+    "threshold":27.6739308726,
+    "precision":0.0588235294,
+    "recall":0.05,
+    "f1":0.0540540541,
+    "fpr":0.0487433359,
+    "roc_auc":0.8585491241,
+    "pr_auc":0.2381188119,
+    "detection_rate":0.05
+  }
+]

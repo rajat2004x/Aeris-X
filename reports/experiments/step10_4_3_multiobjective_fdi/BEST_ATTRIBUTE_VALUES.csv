@@ -1,0 +1,24 @@
+attribute,direction,historical_best_value,historical_source,dataset,final_holdout,new_best_value,new_source,improvement,development_only
+Precision,maximize,0.6984126984,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,0.6984126984126984,Step 10.4.3 domain_router,1.2698397888755153e-11,False
+Recall,maximize,1.0,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,1.0,Step 10.4.3 domain_router,0.0,False
+F1,maximize,0.8224299065,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,0.822429906542056,Step 10.4.3 domain_router,4.205602532891817e-11,False
+FPR,minimize,0.02894135597,Step 10.2.2 soft_temporal_adaptive,FD004,final_holdout,0.0077836154893948,Step 10.4.3 domain_router,-0.0211577404806052,False
+FNR,minimize,0.0,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,0.0,Step 10.4.3 domain_router,0.0,False
+ROC-AUC,maximize,0.9843176625,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,0.9843176625354844,Step 10.4.3 domain_router,3.548439320155694e-11,False
+PR-AUC,maximize,0.7155209101,Step 10.2.2 soft_temporal_adaptive,FD001,final_holdout,0.7155209101040626,Step 10.4.3 domain_router,4.062639114010835e-12,False
+Top-1,maximize,0.125,Step 10.2.1 isolation RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Top-3,maximize,0.2375,Step 10.2.1 isolation RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Top-5,maximize,0.4,Step 10.2.1 isolation RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Top-10,maximize,0.8523,Step 10.2.3 pairwise RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+MRR,maximize,0.2718,Step 10.2.1 isolation RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Mean Rank,minimize,4.2,Step 10.2.1 isolation RF,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Known Fault Macro F1,maximize,0.0667,Step 10.2.2 classifier,FD001,development,,not newly measured in Step 10.4.3,,True
+Unknown Precision,maximize,0.5455,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Unknown Recall,maximize,1.0,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Unknown F1,maximize,0.7059,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Unknown AUROC,maximize,0.6568,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+Unknown AUPR,maximize,0.7474,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+False Acceptance Rate,minimize,0.0,Step 10.2.3 open-set,FD001,final_holdout,,not newly measured in Step 10.4.3,,False
+ECE,minimize,0.0864,Step 10.4.1 logistic_isotonic,FD001,development,,not newly measured in Step 10.4.3,,True
+Brier,minimize,0.0545,Step 10.4.1 random_forest_isotonic,FD001,development,,not newly measured in Step 10.4.3,,True
+False Alarms / 1000 Windows,minimize,28.94,Step 10.4.2 residual detector,FD001,final_holdout,,not newly measured in Step 10.4.3,,False

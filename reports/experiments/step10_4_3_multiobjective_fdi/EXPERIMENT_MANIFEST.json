@@ -1,0 +1,11 @@
+{
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "seed": 42,
+  "balanced_candidate": "domain_router",
+  "historical_best_is_not_single_model": true
+}

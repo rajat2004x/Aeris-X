@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "window": 30,
+  "fusion_models": [
+    "logistic",
+    "random_forest",
+    "gradient_boosting"
+  ],
+  "selected_model": "random_forest_isotonic",
+  "calibration": "Platt sigmoid and isotonic CV on development data",
+  "threshold_constraint": "development FPR <= 10%",
+  "final_holdout_frozen": true
+}

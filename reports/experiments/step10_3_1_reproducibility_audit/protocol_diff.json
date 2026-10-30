@@ -1,0 +1,170 @@
+{
+  "aggregation": {
+    "historical": "max over sensors",
+    "step10_3": "max over sensors",
+    "status": "IDENTICAL"
+  },
+  "baseline": {
+    "historical": "fit_robust_baseline(X_train), median/MAD-derived robust scale",
+    "step10_3": "fit_robust_baseline on FD001 per-dataset prepared training windows",
+    "status": "DIFFERENT"
+  },
+  "calibration": {
+    "historical": "first half of X_validation; normal labels",
+    "step10_3": "FD001 calibration engine windows",
+    "status": "DIFFERENT"
+  },
+  "detector": {
+    "historical": "soft_temporal_adaptive",
+    "step10_3": "soft_temporal_adaptive",
+    "status": "IDENTICAL"
+  },
+  "development_faults": {
+    "historical": "first half calibration windows; KNOWN fault types",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "engine_split": {
+    "historical": null,
+    "step10_3": "60/20/20 random engine split per dataset",
+    "status": "DIFFERENT"
+  },
+  "fault_types_known": {
+    "historical": [
+      "BIAS",
+      "DRIFT",
+      "STUCK_AT",
+      "NOISE",
+      "INTERMITTENT_DROPOUT"
+    ],
+    "step10_3": [
+      "BIAS",
+      "DRIFT",
+      "STUCK_AT",
+      "NOISE",
+      "INTERMITTENT_DROPOUT"
+    ],
+    "status": "IDENTICAL"
+  },
+  "fault_types_unknown": {
+    "historical": [
+      "SPIKE",
+      "SATURATION",
+      "GAIN_ERROR",
+      "DEADBAND",
+      "BURST_NOISE",
+      "COMPOSITE"
+    ],
+    "step10_3": [
+      "SPIKE",
+      "SATURATION",
+      "GAIN_ERROR",
+      "MISSING_BLOCK",
+      "BURST_NOISE"
+    ],
+    "status": "DIFFERENT"
+  },
+  "feature_columns": {
+    "historical": [
+      "sensor_2",
+      "sensor_3",
+      "sensor_4",
+      "sensor_6",
+      "sensor_7",
+      "sensor_8",
+      "sensor_9",
+      "sensor_11",
+      "sensor_12",
+      "sensor_13",
+      "sensor_14",
+      "sensor_15",
+      "sensor_17",
+      "sensor_20",
+      "sensor_21"
+    ],
+    "step10_3": "sensor_1 through sensor_21",
+    "status": "DIFFERENT"
+  },
+  "feature_count": {
+    "historical": 15,
+    "step10_3": 21,
+    "status": "DIFFERENT"
+  },
+  "final_faults": {
+    "historical": "second half final_normal; KNOWN + UNKNOWN fault types",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "final_normal": {
+    "historical": "second half of X_validation",
+    "step10_3": "final engine windows per dataset",
+    "status": "DIFFERENT"
+  },
+  "historical_result": {
+    "historical": {
+      "precision": 0.6984126984,
+      "recall": 1.0,
+      "f1": 0.8224299065,
+      "fpr": 0.0289413557,
+      "roc_auc": 0.9843176625,
+      "pr_auc": 0.7155209101
+    },
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "implementation": {
+    "historical": "src/aeris/fdi/adaptive.py:temporal_sensor_features + soft_evidence",
+    "step10_3": "same adaptive.py temporal_sensor_features + soft_evidence helpers",
+    "status": "DIFFERENT"
+  },
+  "input": {
+    "historical": null,
+    "step10_3": "raw train files",
+    "status": "DIFFERENT"
+  },
+  "input_arrays": {
+    "historical": "data/processed/cmapss_fd001/X_train.npy and X_validation.npy",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "normalization": {
+    "historical": null,
+    "step10_3": "new per-dataset scaler fit on train-engine windows",
+    "status": "DIFFERENT"
+  },
+  "persistence": {
+    "historical": "soft evidence; no hard persistence gate",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "scenario_count": {
+    "historical": null,
+    "step10_3": "10 sources per fault type; KNOWN + UNKNOWN",
+    "status": "DIFFERENT"
+  },
+  "scenario_seed": {
+    "historical": "100 + scenario_id; composite second BIAS uses 1000 + scenario_id",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "seed": {
+    "historical": 42,
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "threshold": {
+    "historical": "percentiles 80..99 over calibration and development scores; retain FPR <= 0.10; maximize F1 then recall",
+    "step10_3": "FD001 calibration 95th percentile only",
+    "status": "DIFFERENT"
+  },
+  "validation_split": {
+    "historical": "np.array_split(X_validation, 2)",
+    "step10_3": null,
+    "status": "DIFFERENT"
+  },
+  "window_size": {
+    "historical": 30,
+    "step10_3": 30,
+    "status": "IDENTICAL"
+  }
+}

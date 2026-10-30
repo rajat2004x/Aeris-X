@@ -1,0 +1,3 @@
+configuration,status,f1
+FD001 only,RUN; pooled model uses same feature contract,
+FD001+FD002+FD003+FD004,RUN; lightweight pooled statistics,

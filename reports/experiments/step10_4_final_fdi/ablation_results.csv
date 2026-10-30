@@ -1,0 +1,9 @@
+component,status
+historical_control,RUN
+condition_residual,RUN
+temporal_evidence,RUN
+adaptive_threshold,RUN
+peer_consistency,RUN
+sensor_local_features,RUN
+ensemble,RUN
+pooled_statistics,RUN

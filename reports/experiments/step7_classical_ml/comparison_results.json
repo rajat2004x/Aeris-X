@@ -1,0 +1,34 @@
+[
+  {
+    "model": "xgboost",
+    "mae": 18.698258043515352,
+    "rmse": 26.407636014342945,
+    "phm_score": 118477.09623510219,
+    "training_time_seconds": 12.253017200011527,
+    "inference_time_seconds": 0.006889000011142343
+  },
+  {
+    "model": "random_forest",
+    "mae": 20.872797868290828,
+    "rmse": 29.09483246572496,
+    "phm_score": 210675.32541698002,
+    "training_time_seconds": 114.35525799999596,
+    "inference_time_seconds": 0.12197639999794774
+  },
+  {
+    "model": "linear_regression",
+    "mae": 23.11572275354148,
+    "rmse": 29.49562634904742,
+    "phm_score": 166973.43869613155,
+    "training_time_seconds": 1.6208653000066988,
+    "inference_time_seconds": 0.004780900024343282
+  },
+  {
+    "model": "mean_rul",
+    "mae": 48.89999722265683,
+    "rmse": 58.15983273912657,
+    "phm_score": 3749212.2109142113,
+    "training_time_seconds": 0.0003353999927639961,
+    "inference_time_seconds": 3.070000093430281e-05
+  }
+]

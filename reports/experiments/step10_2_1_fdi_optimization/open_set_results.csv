@@ -1,0 +1,2 @@
+known_macro_f1,unknown_recall,unknown_precision,unknown_auroc,unknown_aupr,false_acceptance_rate
+0.06666666666666667,1.0,0.5,0.4975,0.5064710910770024,0.0

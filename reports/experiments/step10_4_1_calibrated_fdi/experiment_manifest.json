@@ -1,0 +1,24 @@
+{
+  "experiment_id": "step10_4_1_calibrated_fdi",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "runtime_seconds": 148.24726069999997,
+  "known_faults": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "unknown_faults": [
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ]
+}

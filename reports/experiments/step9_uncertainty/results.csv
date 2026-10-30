@@ -1,0 +1,2 @@
+mae,rmse,phm_score,mean_predictive_std,median_predictive_std,average_interval_width,median_interval_width,min_interval_width,max_interval_width,nominal_coverage,observed_coverage,coverage_error,pearson_uncertainty_absolute_error,spearman_uncertainty_absolute_error
+17.321881273760283,24.980096028218004,61844.8627156045,2.9820956869337567,2.761896345950314,11.689815092780325,10.82663367612523,0.5188698080931826,39.99884296160518,0.95,0.3490673772363913,-0.6009326227636087,-0.064166266335348,0.03278251849552159

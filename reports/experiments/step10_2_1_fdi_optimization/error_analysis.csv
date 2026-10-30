@@ -1,0 +1,11 @@
+fault_type,sample_count,classification_accuracy,unknown_rejection_rate,severity
+BIAS,8,0.0,1.0,low
+BURST_NOISE,8,0.0,1.0,low
+DRIFT,8,0.0,1.0,low
+GAIN_ERROR,8,0.0,1.0,low
+INTERMITTENT_DROPOUT,8,0.0,1.0,low
+MISSING_BLOCK,8,0.0,1.0,low
+NOISE,8,1.0,1.0,low
+SATURATION,8,0.0,1.0,low
+SPIKE,8,0.0,1.0,low
+STUCK_AT,8,0.0,1.0,low

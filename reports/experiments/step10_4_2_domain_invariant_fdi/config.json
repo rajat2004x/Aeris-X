@@ -1,0 +1,20 @@
+{
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "faults": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT",
+    "SPIKE"
+  ],
+  "window": 30,
+  "seed": 42,
+  "threshold": 0.6774473676508268,
+  "model": "per-sensor Ridge conditioned on operating settings and temporal position"
+}

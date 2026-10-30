@@ -1,0 +1,33 @@
+{
+  "experiment_id": "step10_4_final_fdi",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "runtime_seconds": 98.07692599999973,
+  "sensor_order": [
+    "sensor_1",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_5",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_10",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_16",
+    "sensor_17",
+    "sensor_18",
+    "sensor_19",
+    "sensor_20",
+    "sensor_21"
+  ]
+}

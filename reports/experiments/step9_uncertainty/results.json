@@ -1,0 +1,113 @@
+{
+  "model": "Transformer",
+  "checkpoint": "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step8_temporal_dl\\gpu\\models\\transformer_gpu.pt",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "pytorch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "seed": 42,
+  "mc_samples": 100,
+  "inference_time_seconds": 11.76569970001583,
+  "point_prediction": {
+    "mae": 17.321881273760283,
+    "rmse": 24.980096028218004,
+    "phm_score": 61844.8627156045
+  },
+  "uncertainty": {
+    "mean_predictive_std": 2.9820956869337567,
+    "median_predictive_std": 2.761896345950314,
+    "average_interval_width": 11.689815092780325,
+    "median_interval_width": 10.82663367612523,
+    "min_interval_width": 0.5188698080931826,
+    "max_interval_width": 39.99884296160518,
+    "nominal_coverage": 0.95,
+    "observed_coverage": 0.3490673772363913,
+    "coverage_error": -0.6009326227636087,
+    "pearson_uncertainty_absolute_error": -0.064166266335348,
+    "spearman_uncertainty_absolute_error": 0.03278251849552159
+  },
+  "uncertainty_quantiles": [
+    {
+      "group": "lowest_20",
+      "sample_count": 526,
+      "mean_uncertainty": 0.3584482198199325,
+      "mae": 29.018568721814752,
+      "rmse": 35.32340498899482
+    },
+    {
+      "group": "20_40",
+      "sample_count": 525,
+      "mean_uncertainty": 2.294949684640309,
+      "mae": 8.305039934257099,
+      "rmse": 15.92394152868157
+    },
+    {
+      "group": "40_60",
+      "sample_count": 525,
+      "mean_uncertainty": 2.7895733351339773,
+      "mae": 8.931278499724751,
+      "rmse": 14.512843727235964
+    },
+    {
+      "group": "60_80",
+      "sample_count": 525,
+      "mean_uncertainty": 3.7478476203680473,
+      "mae": 17.383946776628495,
+      "rmse": 23.654060529545106
+    },
+    {
+      "group": "highest_20",
+      "sample_count": 526,
+      "mean_uncertainty": 5.719443003564578,
+      "mae": 22.937596431413077,
+      "rmse": 29.102597333347827
+    }
+  ],
+  "rul_regimes": [
+    {
+      "regime": "0-20",
+      "sample_count": 300,
+      "mae": 2.5200934392849605,
+      "rmse": 3.1074016169957503,
+      "mean_uncertainty": 2.414345535459643,
+      "mean_interval_width": 9.4642344990018,
+      "coverage": 0.86
+    },
+    {
+      "regime": "20-40",
+      "sample_count": 300,
+      "mae": 5.938193404642741,
+      "rmse": 7.132625904543024,
+      "mean_uncertainty": 2.540540944532749,
+      "mean_interval_width": 9.958920502568374,
+      "coverage": 0.48333333333333334
+    },
+    {
+      "regime": "40-60",
+      "sample_count": 300,
+      "mae": 6.993532952054341,
+      "rmse": 9.341173408353106,
+      "mean_uncertainty": 2.8697497140996173,
+      "mean_interval_width": 11.249418879270499,
+      "coverage": 0.5233333333333333
+    },
+    {
+      "regime": "60-80",
+      "sample_count": 300,
+      "mae": 13.583386019134522,
+      "rmse": 19.27658454819234,
+      "mean_uncertainty": 3.697513298457012,
+      "mean_interval_width": 14.494252129951484,
+      "coverage": 0.43
+    },
+    {
+      "regime": "80+",
+      "sample_count": 1427,
+      "mae": 25.784176847675756,
+      "rmse": 32.242177662747444,
+      "mean_uncertainty": 3.067498613742307,
+      "mean_interval_width": 12.024594565869844,
+      "coverage": 0.15977575332866154
+    }
+  ]
+}

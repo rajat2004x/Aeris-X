@@ -1,0 +1,58 @@
+{
+  "detector": "soft_temporal_adaptive",
+  "implementation": "src/aeris/fdi/adaptive.py:temporal_sensor_features + soft_evidence",
+  "baseline": "fit_robust_baseline(X_train), median/MAD-derived robust scale",
+  "input_arrays": "data/processed/cmapss_fd001/X_train.npy and X_validation.npy",
+  "feature_columns": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "feature_count": 15,
+  "window_size": 30,
+  "validation_split": "np.array_split(X_validation, 2)",
+  "calibration": "first half of X_validation; normal labels",
+  "development_faults": "first half calibration windows; KNOWN fault types",
+  "final_normal": "second half of X_validation",
+  "final_faults": "second half final_normal; KNOWN + UNKNOWN fault types",
+  "fault_types_known": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "fault_types_unknown": [
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "DEADBAND",
+    "BURST_NOISE",
+    "COMPOSITE"
+  ],
+  "threshold": "percentiles 80..99 over calibration and development scores; retain FPR <= 0.10; maximize F1 then recall",
+  "seed": 42,
+  "scenario_seed": "100 + scenario_id; composite second BIAS uses 1000 + scenario_id",
+  "persistence": "soft evidence; no hard persistence gate",
+  "aggregation": "max over sensors",
+  "historical_result": {
+    "precision": 0.6984126984,
+    "recall": 1.0,
+    "f1": 0.8224299065,
+    "fpr": 0.0289413557,
+    "roc_auc": 0.9843176625,
+    "pr_auc": 0.7155209101
+  }
+}

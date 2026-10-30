@@ -1,0 +1,13 @@
+[
+  {
+    "detector":"frozen_soft_temporal_adaptive",
+    "threshold":0.6113829673,
+    "precision":0.6984126984,
+    "recall":1.0,
+    "f1":0.8224299065,
+    "fpr":0.0289413557,
+    "roc_auc":0.9843176625,
+    "pr_auc":0.7155209101,
+    "training_time_seconds":1.4984778
+  }
+]

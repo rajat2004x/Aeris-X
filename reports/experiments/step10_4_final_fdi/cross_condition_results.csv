@@ -1,0 +1,5 @@
+dataset,seen_vs_unseen,status
+FD001,condition clusters assigned from train-only KMeans,RUN
+FD002,condition clusters assigned from train-only KMeans,RUN
+FD003,condition clusters assigned from train-only KMeans,RUN
+FD004,condition clusters assigned from train-only KMeans,RUN

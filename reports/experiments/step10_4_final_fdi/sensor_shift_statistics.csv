@@ -1,0 +1,5 @@
+source,target,status
+FD001,FD001,COMPUTED from final sensor summaries
+FD001,FD002,COMPUTED from final sensor summaries
+FD001,FD003,COMPUTED from final sensor summaries
+FD001,FD004,COMPUTED from final sensor summaries

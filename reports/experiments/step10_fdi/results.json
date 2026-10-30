@@ -1,0 +1,75 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "pytorch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "fault_scenarios": 135,
+  "fault_types": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT"
+  ],
+  "training_seconds": 20.25330139999278,
+  "threshold": 0.021401263400912283,
+  "threshold_percentile": 95,
+  "normal_false_positive_rate": 0.05024743052912067,
+  "detection_metrics": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.9033309196234612,
+    "false_positive_rate": 0.05024743052912067,
+    "false_negative_rate": 1.0,
+    "roc_auc": 0.4713967488615376,
+    "pr_auc": 0.04188954840451241
+  },
+  "top1_isolation_accuracy": 0.07407407407407407,
+  "top3_isolation_accuracy": 0.1925925925925926,
+  "mean_detection_latency": NaN,
+  "median_detection_latency": NaN,
+  "detection_rate": 0.0,
+  "fault_type_summary": [
+    {
+      "fault_type": "BIAS",
+      "precision": 0.0,
+      "detection_rate": 0.0,
+      "mean_latency": NaN,
+      "top1_accuracy": 0.0,
+      "top3_accuracy": 0.07407407407407407
+    },
+    {
+      "fault_type": "DRIFT",
+      "precision": 0.0,
+      "detection_rate": 0.0,
+      "mean_latency": NaN,
+      "top1_accuracy": 0.0,
+      "top3_accuracy": 0.1111111111111111
+    },
+    {
+      "fault_type": "INTERMITTENT_DROPOUT",
+      "precision": 0.0,
+      "detection_rate": 0.0,
+      "mean_latency": NaN,
+      "top1_accuracy": 0.07407407407407407,
+      "top3_accuracy": 0.18518518518518517
+    },
+    {
+      "fault_type": "NOISE",
+      "precision": 0.0,
+      "detection_rate": 0.0,
+      "mean_latency": NaN,
+      "top1_accuracy": 0.25925925925925924,
+      "top3_accuracy": 0.4074074074074074
+    },
+    {
+      "fault_type": "STUCK_AT",
+      "precision": 0.0,
+      "detection_rate": 0.0,
+      "mean_latency": NaN,
+      "top1_accuracy": 0.037037037037037035,
+      "top3_accuracy": 0.18518518518518517
+    }
+  ]
+}

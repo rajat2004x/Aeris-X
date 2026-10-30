@@ -1,0 +1,14 @@
+{
+  "training": "FD001 calibration-derived known-fault scenarios",
+  "threshold_calibration": "normal calibration plus development known faults only",
+  "final_test": "FD001 final normal windows plus disjoint known/unknown scenarios",
+  "scenario_overlap": false,
+  "unknown_faults_excluded_from_training": [
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ],
+  "final_labels_used_for_selection": false
+}

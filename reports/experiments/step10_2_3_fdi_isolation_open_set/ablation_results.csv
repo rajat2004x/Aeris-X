@@ -1,0 +1,6 @@
+component,detector,threshold,precision,recall,f1,fpr,roc_auc,pr_auc,training_time_seconds,model,top1,top3,top5,top10,mrr,mean_rank,unknown_auroc,unknown_aupr,unknown_precision,unknown_recall,unknown_f1,false_acceptance_rate,known_macro_f1
+temporal_detector_reference,frozen_soft_temporal_adaptive,0.6113829673454165,0.6984126984126984,1.0,0.822429906542056,0.028941355674028942,0.9843176625354843,0.7155209101040626,1.4984777999925427,,,,,,,,,,,,,,
+pairwise_sensor_classifier,,,,,,,,,,pairwise_random_forest,0.09090909090909091,0.23863636363636365,0.3977272727272727,0.8522727272727273,0.25838902259356805,6.534090909090909,,,,,,,
+distance_only_open_set,,,,,,,,,,,,,,,,,0.6578125000000001,0.7483587773714924,,,,,
+confidence_only_open_set,,,,,,,,,,,,,,,,,0.48125,0.5349638209013209,,,,,
+fused_open_set,,0.3103960145870998,,,,,,,,,,,,,,,0.6567708333333333,0.7473709591508177,0.5454545454545454,1.0,0.7058823529411765,0.0,0.06666666666666667

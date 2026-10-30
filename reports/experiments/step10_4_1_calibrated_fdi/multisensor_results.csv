@@ -1,0 +1,5 @@
+dataset,fault_set_size,exact_set_accuracy,status
+FD001,2,,scored through sensor ranking
+FD002,2,,scored through sensor ranking
+FD003,2,,scored through sensor ranking
+FD004,2,,scored through sensor ranking

@@ -1,0 +1,63 @@
+version: 1
+project: AERIS-X
+milestones:
+  - id: "1"
+    name: Project repository
+  - id: "2"
+    name: Environment
+  - id: "3"
+    name: NASA C-MAPSS dataset
+  - id: "4"
+    name: Data validation
+  - id: "5"
+    name: Data understanding / EDA
+  - id: "6"
+    name: Telemetry preprocessing + RUL/health labels
+  - id: "7"
+    name: Baseline ML
+  - id: "8"
+    name: Model evaluation
+  - id: "9"
+    name: Experiment comparison / analysis
+  - id: "10"
+    name: Sensor health / FDI
+  - id: "11"
+    name: Anomaly detection
+  - id: "12"
+    name: Health-state estimation
+  - id: "13"
+    name: LSTM / GRU
+  - id: "14"
+    name: Transformer
+  - id: "15"
+    name: Uncertainty estimation
+  - id: "16"
+    name: Fault diagnosis
+  - id: "17"
+    name: Digital twin
+  - id: "18"
+    name: Fault injection
+  - id: "19"
+    name: Unknown-fault detection
+  - id: "20"
+    name: Domain shift
+  - id: "21"
+    name: Physics + ML hybrid
+  - id: "22"
+    name: FastAPI
+  - id: "23"
+    name: PostgreSQL / DuckDB
+  - id: "24"
+    name: React dashboard
+  - id: "25"
+    name: MLflow / DVC
+  - id: "26"
+    name: Docker + CI/CD
+  - id: "27"
+    name: Monitoring
+  - id: "28"
+    name: Engineering-document RAG
+  - id: "29"
+    name: Evidence-grounded investigation
+  - id: "30"
+    name: AI Aerospace Copilot

@@ -1,0 +1,4 @@
+component,status
+frozen_detector,RUN
+dataset_specific_retraining,NOT RUN
+pooled_multidataset_training,NOT RUN

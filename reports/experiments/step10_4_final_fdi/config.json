@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "window": 30,
+  "detector": "condition residual + soft temporal evidence + peer consistency",
+  "fault_types": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT",
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ],
+  "final_holdout_frozen": true
+}

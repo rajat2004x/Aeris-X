@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "window_size": 30,
+  "threshold_percentile": 95,
+  "source_calibration": "FD001",
+  "retraining": "NOT RUN",
+  "execution_seconds": 25.632532999999967
+}

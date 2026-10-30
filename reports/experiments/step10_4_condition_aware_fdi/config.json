@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "condition_model": "KMeans on normalized raw operating settings; train data only",
+  "threshold": "95th percentile normal calibration",
+  "historical_artifacts_preserved": true
+}

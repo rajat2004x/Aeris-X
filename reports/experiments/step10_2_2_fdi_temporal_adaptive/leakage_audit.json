@@ -1,0 +1,8 @@
+{
+  "training": "normal X_train plus development known faults",
+  "calibration": "normal calibration plus development scenarios",
+  "final": "disjoint normal and known/unknown scenarios",
+  "scenario_overlap": false,
+  "unknown_faults_in_training": [],
+  "final_labels_used_for_threshold": false
+}

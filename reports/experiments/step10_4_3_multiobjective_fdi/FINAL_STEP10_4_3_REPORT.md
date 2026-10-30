@@ -1,0 +1,3 @@
+# Step 10.4.3 Multi-Objective FDI
+
+Historical maxima are recorded in `BEST_ATTRIBUTE_VALUES.csv`; they come from different experiments and are not a single-model result. The balanced candidate is a domain router preserving the historical FD001 specialist and using the Step 10.4.2 residual detector for the other domains. This routing composition does not establish robust cross-dataset aerospace FDI: FD002 and FD004 residual recall are zero, and the historical specialist was evaluated under its own validated FD001 protocol. The Pareto table retains non-dominated candidates, while raw metrics remain available in `FINAL_RESULTS.csv` and the source artifacts. No final labels were used for tuning.

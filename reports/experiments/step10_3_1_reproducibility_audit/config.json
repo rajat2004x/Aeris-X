@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "historical_source": "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step10_2_2_fdi_temporal_adaptive",
+  "processed_source": "C:\\Users\\rajat\\AERIS-X\\data\\processed\\cmapss_fd001",
+  "saved_scaler_exists": true,
+  "no_historical_files_modified": true
+}

@@ -1,0 +1,31 @@
+{
+  "historical_X_train": {
+    "shape": [
+      15104,
+      30,
+      15
+    ],
+    "sha256": "b4a26c73c8d9b14c1bc5e88f2704cf6a41edd4eccc336f128ebc605752c2226e"
+  },
+  "historical_X_validation": {
+    "shape": [
+      2627,
+      30,
+      15
+    ],
+    "sha256": "81611a99a8877ffbe67b8b5dd25fa8c6ff37eb754d83a011daf7c9a60d33c3c2"
+  },
+  "step10_3_fd001": {
+    "training_windows": 10570,
+    "evaluation_windows": 3524,
+    "status": "DIFFERENT"
+  },
+  "comparison": {
+    "input_arrays": "DIFFERENT",
+    "window_count": "DIFFERENT",
+    "window_shape": "DIFFERENT",
+    "normalization": "DIFFERENT",
+    "calibration_windows": "DIFFERENT",
+    "evaluation_windows": "DIFFERENT"
+  }
+}
