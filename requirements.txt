@@ -12,5 +12,13 @@ duckdb
 pyyaml
 joblib
 tqdm
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy
+psycopg[binary]
+alembic
+httpx
 pytest
 torch

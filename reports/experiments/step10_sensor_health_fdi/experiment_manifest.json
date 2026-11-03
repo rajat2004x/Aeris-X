@@ -1,0 +1,38 @@
+{
+  "step": "10",
+  "title": "Sensor Health / FDI",
+  "integration_type": "evidence packaging of verified historical Step 10.4 final run; no retraining",
+  "source_experiment": "reports\\experiments\\step10_4_final_fdi",
+  "historical_normal_degradation_source": "reports\\experiments\\step10_4_3_multiobjective_fdi\\NORMAL_DEGRADATION.csv",
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "seed": 42,
+  "detector": "condition residual + soft temporal evidence + peer consistency",
+  "fault_types": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT",
+    "SPIKE",
+    "SATURATION",
+    "GAIN_ERROR",
+    "MISSING_BLOCK",
+    "BURST_NOISE"
+  ],
+  "final_holdout_frozen": true,
+  "historical_artifacts_preserved": true,
+  "source_files": [
+    "reports\\experiments\\step10_4_final_fdi\\cross_dataset_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\isolation_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\fault_classification_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\open_set_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\calibration_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\uncertainty_results.csv",
+    "reports\\experiments\\step10_4_final_fdi\\leakage_audit.json"
+  ]
+}

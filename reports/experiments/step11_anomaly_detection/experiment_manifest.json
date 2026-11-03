@@ -1,0 +1,23 @@
+{
+  "step": "11",
+  "dataset": "NASA C-MAPSS FD001",
+  "data_dir": "data\\processed\\cmapss_fd001",
+  "train_windows": 15104,
+  "validation_windows": 2627,
+  "window_shape": [
+    30,
+    15
+  ],
+  "normal_training_definition": "All existing Step 6 X_train windows; no anomaly labels or injected scenarios used for fitting.",
+  "development_definition": "First half of X_validation, used only for threshold calibration.",
+  "final_holdout_definition": "Second half of X_validation; labels are generated only for controlled evaluation scenarios.",
+  "detector": "per-sensor median/MAD robust scores aggregated as mean top-3 sensor evidence",
+  "threshold": 26.191149138454872,
+  "threshold_method": "99.0th percentile of development scores",
+  "persistence": 3,
+  "seed": 42,
+  "fault_protocol": "Two-sensor BIAS/DRIFT injection on every fourth holdout window; evaluation only.",
+  "processed_fd002_fd004_available": false,
+  "future_information_used": false,
+  "final_labels_used_for_fit_or_threshold": false
+}

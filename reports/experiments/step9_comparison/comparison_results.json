@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source_artifacts": [
+    "reports\\experiments\\step7_classical_ml\\comparison_results.csv",
+    "reports\\experiments\\step8_temporal_dl\\results.json",
+    "reports\\experiments\\step8_temporal_dl\\gpu\\transformer_gpu_results.json"
+  ],
+  "records": [
+    {
+      "model": "XGBoost",
+      "variant": "reference",
+      "model_family": "classical",
+      "approach": "classical",
+      "mae": 18.698258043515352,
+      "rmse": 26.407636014342945,
+      "phm_score": 118477.0962351022,
+      "training_time_seconds": 11.72467789996881,
+      "inference_time_seconds": 0.0074630000162869,
+      "inference_time_per_sample": 2.840883142857594e-06,
+      "parameter_count": null,
+      "model_size_mb": 1.3160362243652344,
+      "device": "reference"
+    },
+    {
+      "model": "Random Forest",
+      "variant": "reference",
+      "model_family": "classical",
+      "approach": "classical",
+      "mae": 20.872797868290828,
+      "rmse": 29.09483246572496,
+      "phm_score": 210675.32541698,
+      "training_time_seconds": 51.86332850001054,
+      "inference_time_seconds": 0.1474695000215433,
+      "inference_time_per_sample": 5.613608679921709e-05,
+      "parameter_count": null,
+      "model_size_mb": 113.62139987945557,
+      "device": "reference"
+    },
+    {
+      "model": "Linear Regression",
+      "variant": "reference",
+      "model_family": "classical",
+      "approach": "classical",
+      "mae": 23.11572275354148,
+      "rmse": 29.49562634904742,
+      "phm_score": 166973.43869613155,
+      "training_time_seconds": 0.4812997000408359,
+      "inference_time_seconds": 0.0039345000404864,
+      "inference_time_per_sample": 1.4977160412966885e-06,
+      "parameter_count": null,
+      "model_size_mb": 0.003964424133300781,
+      "device": "reference"
+    },
+    {
+      "model": "Mean RUL",
+      "variant": "reference",
+      "model_family": "classical",
+      "approach": "classical",
+      "mae": 48.89999722265683,
+      "rmse": 58.15983273912657,
+      "phm_score": 3749212.2109142113,
+      "training_time_seconds": 0.0005072999629192,
+      "inference_time_seconds": 3.479997394606471e-05,
+      "inference_time_per_sample": 1.3247039949015878e-08,
+      "parameter_count": null,
+      "model_size_mb": 7.82012939453125e-05,
+      "device": "reference"
+    },
+    {
+      "model": "LSTM",
+      "variant": "cpu",
+      "model_family": "temporal",
+      "approach": "temporal",
+      "mae": 18.805197034855055,
+      "rmse": 26.913817937357877,
+      "phm_score": 139944.81084747688,
+      "training_time_seconds": 1369.1768770999915,
+      "inference_time_seconds": 2.1547408000042196,
+      "inference_time_per_sample": 0.0008202287019429842,
+      "parameter_count": 206465.0,
+      "model_size_mb": 0.7876014709472656,
+      "device": "cpu"
+    },
+    {
+      "model": "GRU",
+      "variant": "cpu",
+      "model_family": "temporal",
+      "approach": "temporal",
+      "mae": 18.803085926462135,
+      "rmse": 26.879738544525924,
+      "phm_score": 116200.21732148116,
+      "training_time_seconds": 672.4720995999814,
+      "inference_time_seconds": 1.0190505999780726,
+      "inference_time_per_sample": 0.00038791419869740103,
+      "parameter_count": 154881.0,
+      "model_size_mb": 0.5908241271972656,
+      "device": "cpu"
+    },
+    {
+      "model": "TCN",
+      "variant": "cpu",
+      "model_family": "temporal",
+      "approach": "temporal",
+      "mae": 20.893047178930594,
+      "rmse": 28.05890098945839,
+      "phm_score": 190438.4462818513,
+      "training_time_seconds": 284.38086960001965,
+      "inference_time_seconds": 0.7401708999823313,
+      "inference_time_per_sample": 0.00028175519603438573,
+      "parameter_count": 123457.0,
+      "model_size_mb": 0.4709510803222656,
+      "device": "cpu"
+    },
+    {
+      "model": "Transformer",
+      "variant": "cpu",
+      "model_family": "temporal",
+      "approach": "temporal",
+      "mae": 17.21088359943124,
+      "rmse": 24.590212497395246,
+      "phm_score": 98955.54007371175,
+      "training_time_seconds": 380.92921259999275,
+      "inference_time_seconds": 0.19913540000561625,
+      "inference_time_per_sample": 7.580334983083984e-05,
+      "parameter_count": 68033.0,
+      "model_size_mb": 0.2595252990722656,
+      "device": "cpu"
+    },
+    {
+      "model": "Transformer",
+      "variant": "gpu",
+      "model_family": "temporal",
+      "approach": "temporal",
+      "mae": 17.793436733656254,
+      "rmse": 25.123280649910186,
+      "phm_score": 61942.23448119159,
+      "training_time_seconds": 29.90538350000861,
+      "inference_time_seconds": 0.0780598999990616,
+      "inference_time_per_sample": 2.9714465169037533e-05,
+      "parameter_count": 68033.0,
+      "model_size_mb": 0.2775611877441406,
+      "device": "NVIDIA GeForce RTX 3050 4GB Laptop GPU"
+    }
+  ],
+  "rankings": {
+    "mae_ascending": [
+      "Transformer (cpu)",
+      "Transformer (gpu)",
+      "XGBoost (reference)",
+      "GRU (cpu)",
+      "LSTM (cpu)",
+      "Random Forest (reference)",
+      "TCN (cpu)",
+      "Linear Regression (reference)",
+      "Mean RUL (reference)"
+    ],
+    "rmse_ascending": [
+      "Transformer (cpu)",
+      "Transformer (gpu)",
+      "XGBoost (reference)",
+      "GRU (cpu)",
+      "LSTM (cpu)",
+      "TCN (cpu)",
+      "Random Forest (reference)",
+      "Linear Regression (reference)",
+      "Mean RUL (reference)"
+    ],
+    "phm_ascending": [
+      "Transformer (gpu)",
+      "Transformer (cpu)",
+      "GRU (cpu)",
+      "XGBoost (reference)",
+      "LSTM (cpu)",
+      "Linear Regression (reference)",
+      "TCN (cpu)",
+      "Random Forest (reference)",
+      "Mean RUL (reference)"
+    ],
+    "training_time_ascending": [
+      "Mean RUL (reference)",
+      "Linear Regression (reference)",
+      "XGBoost (reference)",
+      "Transformer (gpu)",
+      "Random Forest (reference)",
+      "TCN (cpu)",
+      "Transformer (cpu)",
+      "GRU (cpu)",
+      "LSTM (cpu)"
+    ],
+    "inference_time_per_sample_ascending": [
+      "Mean RUL (reference)",
+      "Linear Regression (reference)",
+      "XGBoost (reference)",
+      "Transformer (gpu)",
+      "Random Forest (reference)",
+      "Transformer (cpu)",
+      "TCN (cpu)",
+      "GRU (cpu)",
+      "LSTM (cpu)"
+    ]
+  },
+  "derived_comparisons": {
+    "transformer_cpu_vs_xgboost_mae_relative_change": -0.07954615026825665,
+    "transformer_cpu_vs_xgboost_rmse_relative_change": -0.06882189363563593,
+    "transformer_cpu_vs_xgboost_phm_relative_change": -0.16477071756259537,
+    "transformer_gpu_training_speedup_vs_cpu": 12.737813999271504,
+    "transformer_gpu_inference_speedup_vs_cpu": 2.5510588664347527
+  },
+  "interpretation": {
+    "best_mae": "Transformer (cpu)",
+    "best_rmse": "Transformer (cpu)",
+    "best_phm": "Transformer (gpu)",
+    "accuracy_efficiency_note": "Transformer (cpu) has the strongest CPU accuracy and the smallest temporal parameter count; XGBoost remains much faster to train.",
+    "gpu_note": "The historical GPU run reduced Transformer training and inference time, but produced different validation metrics and is not a like-for-like accuracy win over the CPU run."
+  },
+  "limitations": [
+    "All model metrics use the same FD001 validation split, not an untouched test set.",
+    "Timing values are historical single-run measurements and are hardware- and load-dependent.",
+    "The GPU and CPU Transformer runs have different measured predictions, so speed comparisons do not imply identical accuracy.",
+    "No statistical significance or repeated-seed analysis is claimed."
+  ]
+}

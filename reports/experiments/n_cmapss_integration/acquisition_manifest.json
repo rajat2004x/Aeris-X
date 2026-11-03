@@ -1,0 +1,13 @@
+{
+  "source": "NASA Prognostics Data Repository, N-CMAPSS/C-MAPSS 2",
+  "source_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+  "download_timestamp": "2026-11-02T17:51:33.283064+00:00",
+  "filename": "N-CMAPSS_DS02-006.h5",
+  "sha256": null,
+  "size_bytes": null,
+  "subset": "DS02",
+  "groups": null,
+  "shapes": null,
+  "status": "DATA_ACCESS_UNAVAILABLE",
+  "reason": "NASA currently reports direct download unavailable; no schema or target is assumed."
+}

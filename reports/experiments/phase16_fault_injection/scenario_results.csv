@@ -1,0 +1,7 @@
+scenario_id,split,dataset,fault_type,affected_sensor,anomaly_status,anomaly_score,threshold,top1_isolation,detector,diagnosis_state,health_score,seed
+normal_holdout_000,heldout_evaluation,synthetic_digital_twin,NORMAL,,NORMAL,1.1098163068675755,3.0,False,phase16_robust_window_system,NORMAL,0.917829431673748,42
+heldout_bias_000,heldout_evaluation,synthetic_digital_twin,BIAS,sensor_0,NORMAL,1.8252500382366161,3.0,False,phase16_robust_window_system,NORMAL,0.8828770483053234,43
+heldout_drift_001,heldout_evaluation,synthetic_digital_twin,DRIFT,sensor_1,NORMAL,1.5219005709940525,3.0,True,phase16_robust_window_system,NORMAL,0.9025688905415729,44
+heldout_stuck_at_002,heldout_evaluation,synthetic_digital_twin,STUCK_AT,sensor_2,NORMAL,0.9261989098476135,3.0,False,phase16_robust_window_system,NORMAL,0.9479726156677439,45
+heldout_noise_003,heldout_evaluation,synthetic_digital_twin,NOISE,sensor_3,NORMAL,1.0225270699408247,3.0,False,phase16_robust_window_system,NORMAL,0.9293814374939531,46
+heldout_intermittent_dropout_004,heldout_evaluation,synthetic_digital_twin,INTERMITTENT_DROPOUT,sensor_4,NORMAL,1.1048691483922866,3.0,False,phase16_robust_window_system,NORMAL,0.9286771928972294,47

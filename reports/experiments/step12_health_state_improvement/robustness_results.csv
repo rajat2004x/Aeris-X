@@ -1,0 +1,3 @@
+model,corruption,clean_mae,corrupted_mae,mae_degradation,prediction_stability,healthy_as_degraded_rate,healthy_windows,affected_windows
+baseline_transformer,sensor_0_bias_severity_1.5,0.05505474312826083,0.06709952723009333,0.012044784101832497,0.017233738232253826,,0,275
+selected_candidate,sensor_0_bias_severity_1.5,0.15876446555977003,0.15974653966141925,0.0009820741016492163,0.001860681688413024,,0,275

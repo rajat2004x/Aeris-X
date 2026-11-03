@@ -1,0 +1,14 @@
+{
+  "experiment_version": "phase16-foundation-v1",
+  "dataset": "synthetic digital-twin telemetry",
+  "real_nasa_data_used": false,
+  "training_split": "none; no model training",
+  "development_split": "none; no threshold calibration",
+  "final_evaluation_split": "heldout_evaluation scenarios only",
+  "final_labels_used_for_selection": false,
+  "synthetic_fault_parameters_used_for_training": false,
+  "scaler_fit_scope": "none",
+  "random_seed": 42,
+  "threshold": 3.0,
+  "threshold_source": "fixed documented heuristic; not tuned on evaluation labels"
+}

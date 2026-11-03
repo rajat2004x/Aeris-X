@@ -1,0 +1,16 @@
+{
+  "status": "DATA_REQUIRED",
+  "source": "NASA Prognostics Data Repository, N-CMAPSS/C-MAPSS 2; official download required",
+  "root": "C:\\Users\\rajat\\AERIS-X\\data\\raw\\N-CMAPSS",
+  "files": [],
+  "subsets": null,
+  "engine_or_run_counts": null,
+  "sensor_count": null,
+  "operating_condition_variables": null,
+  "sampling": null,
+  "failure_labels": null,
+  "health_semantics": null,
+  "missing_values": null,
+  "constant_channels": null,
+  "reason": "No N-CMAPSS files were found locally; no schema or target is assumed."
+}

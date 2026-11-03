@@ -1,0 +1,2 @@
+dataset,detector,threshold,threshold_method,persistence,development_windows,holdout_windows,anomaly_windows,precision,recall,f1,fpr,fnr,roc_auc,pr_auc,actual_events,detected_events,event_recall,false_alarms,mean_detection_delay,normal_holdout_fpr,false_alarms_per_engine
+FD001,robust_multisensor_mad,26.191149138454872,percentile_99.0_development_normal,3,1313,400,100,0.6,0.06,0.10909090909090909,0.013333333333333334,0.94,0.5244333333333333,0.276355124413086,100,1,0.01,0,0.0,0.013333333333333334,0.13333333333333333

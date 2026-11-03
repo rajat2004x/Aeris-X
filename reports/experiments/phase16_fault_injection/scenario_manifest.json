@@ -1,0 +1,96 @@
+{
+  "experiment_version": "phase16-scenarios-v1",
+  "data_type": "synthetic_digital_twin_only",
+  "seed": 42,
+  "scenarios": [
+    {
+      "scenario_id": "normal_holdout_000",
+      "split": "heldout_evaluation",
+      "seed": 42,
+      "fault_type": "NORMAL",
+      "affected_sensor": null,
+      "magnitude": 0.0,
+      "start_time": 60,
+      "duration": 0,
+      "operating_condition": {
+        "throttle": 0.55
+      }
+    },
+    {
+      "scenario_id": "heldout_bias_000",
+      "split": "heldout_evaluation",
+      "seed": 43,
+      "fault_type": "BIAS",
+      "affected_sensor": 0,
+      "magnitude": 1.0,
+      "start_time": 60,
+      "duration": 60,
+      "operating_condition": {
+        "throttle": 0.55
+      }
+    },
+    {
+      "scenario_id": "heldout_drift_001",
+      "split": "heldout_evaluation",
+      "seed": 44,
+      "fault_type": "DRIFT",
+      "affected_sensor": 1,
+      "magnitude": 1.0,
+      "start_time": 60,
+      "duration": 60,
+      "operating_condition": {
+        "throttle": 0.6000000000000001
+      }
+    },
+    {
+      "scenario_id": "heldout_stuck_at_002",
+      "split": "heldout_evaluation",
+      "seed": 45,
+      "fault_type": "STUCK_AT",
+      "affected_sensor": 2,
+      "magnitude": 1.0,
+      "start_time": 60,
+      "duration": 60,
+      "operating_condition": {
+        "throttle": 0.55
+      }
+    },
+    {
+      "scenario_id": "heldout_noise_003",
+      "split": "heldout_evaluation",
+      "seed": 46,
+      "fault_type": "NOISE",
+      "affected_sensor": 3,
+      "magnitude": 1.0,
+      "start_time": 60,
+      "duration": 60,
+      "operating_condition": {
+        "throttle": 0.6000000000000001
+      }
+    },
+    {
+      "scenario_id": "heldout_intermittent_dropout_004",
+      "split": "heldout_evaluation",
+      "seed": 47,
+      "fault_type": "INTERMITTENT_DROPOUT",
+      "affected_sensor": 4,
+      "magnitude": 1.0,
+      "start_time": 60,
+      "duration": 60,
+      "operating_condition": {
+        "throttle": 0.55
+      }
+    }
+  ],
+  "training_development_scenarios": [],
+  "heldout_evaluation_scenarios": [
+    "normal_holdout_000",
+    "heldout_bias_000",
+    "heldout_drift_001",
+    "heldout_stuck_at_002",
+    "heldout_noise_003",
+    "heldout_intermittent_dropout_004"
+  ],
+  "threshold_tuning": "none; detector uses a documented fixed heuristic threshold",
+  "synthetic_parameters_used_for_training": false
+}

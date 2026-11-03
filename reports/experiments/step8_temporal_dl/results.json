@@ -5,12 +5,12 @@
     "mae": 18.698258043515352,
     "rmse": 26.407636014342945,
     "phm_score": 118477.09623510219,
-    "training_time_seconds": NaN,
-    "inference_time_seconds": NaN,
-    "inference_time_per_sample": NaN,
-    "parameter_count": NaN,
-    "trainable_parameter_count": NaN,
-    "model_size_mb": NaN,
+    "training_time_seconds": 11.72467789996881,
+    "inference_time_seconds": 0.0074630000162869,
+    "inference_time_per_sample": 2.840883142857594e-06,
+    "parameter_count": null,
+"trainable_parameter_count": null,
+    "model_size_mb": 1.3160362243652344,
     "device": "reference"
   },
   {

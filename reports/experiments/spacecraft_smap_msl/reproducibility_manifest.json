@@ -1,0 +1,13 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "scikit_learn": "1.9.1",
+  "seed": 42,
+  "protocol": "80% train fit / 20% normal train calibration / frozen test evaluation",
+  "threshold": "99th percentile of calibration scores",
+  "runtime_module": "aeris.spacecraft.experiment",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "argv": [
+    "scripts\\run_spacecraft_smap_msl_experiment.py"
+  ]
+}

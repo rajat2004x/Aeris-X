@@ -1,0 +1,12 @@
+{
+  "fit_data": "X_train.npy and y_train.npy only",
+  "development_data": "validation engines listed in development_engines",
+  "final_data": "validation engines listed in final_engines",
+  "reference_max_rul_fit_on": "y_train.npy only",
+  "model_selection": "development MAE/RMSE only",
+  "final_holdout_used_for_selection": false,
+  "final_holdout_evaluated_after_freezing": true,
+  "future_rul_or_health_features": false,
+  "engine_overlap_train_development_final": false,
+  "raw_data_used": "FD001 train file only to recover deterministic ownership metadata"
+}

@@ -1,0 +1,11 @@
+{
+  "training": "X_train and y_train only",
+  "development": "development validation engines only for candidate comparison",
+  "final": "final validation engines evaluated once after selection",
+  "final_holdout_used_for_training": false,
+  "final_holdout_used_for_selection": false,
+  "target_reference_max_fit_on_training_only": true,
+  "engine_boundaries_preserved": true,
+  "robustness_injection_used_for_training": false,
+  "baseline_overwritten": false
+}

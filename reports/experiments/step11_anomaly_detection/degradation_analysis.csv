@@ -1,0 +1,2 @@
+dataset,normal_holdout_windows,normal_score_mean,normal_score_p95,normal_score_max,false_positive_rate
+FD001,300,15.306796206204096,26.021172863792074,26.416774973006365,0.013333333333333334

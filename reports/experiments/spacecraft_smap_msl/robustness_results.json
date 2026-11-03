@@ -1,0 +1,56 @@
+[
+  {
+    "perturbation": "bias",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  },
+  {
+    "perturbation": "drift",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  },
+  {
+    "perturbation": "spike",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  },
+  {
+    "perturbation": "stuck_at",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  },
+  {
+    "perturbation": "noise",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  },
+  {
+    "perturbation": "dropout",
+    "threshold": 436771643.12390137,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "detection_delay": null,
+    "deterministic_seed": 42
+  }
+]

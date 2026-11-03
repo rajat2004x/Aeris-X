@@ -1,0 +1,106 @@
+[
+  {
+    "dataset": "FD001",
+    "condition_count": 2,
+    "conditions": [
+      {
+        "condition": "-0.0|100.0",
+        "rows": 10294,
+        "engines": 100
+      },
+      {
+        "condition": "0.0|100.0",
+        "rows": 10337,
+        "engines": 100
+      }
+    ]
+  },
+  {
+    "dataset": "FD002",
+    "condition_count": 6,
+    "conditions": [
+      {
+        "condition": "0.0|100.0",
+        "rows": 8044,
+        "engines": 260
+      },
+      {
+        "condition": "10.0|100.0",
+        "rows": 8096,
+        "engines": 260
+      },
+      {
+        "condition": "20.0|100.0",
+        "rows": 8122,
+        "engines": 260
+      },
+      {
+        "condition": "25.0|60.0",
+        "rows": 8002,
+        "engines": 260
+      },
+      {
+        "condition": "35.0|100.0",
+        "rows": 8037,
+        "engines": 260
+      },
+      {
+        "condition": "42.0|100.0",
+        "rows": 13458,
+        "engines": 260
+      }
+    ]
+  },
+  {
+    "dataset": "FD003",
+    "condition_count": 2,
+    "conditions": [
+      {
+        "condition": "-0.0|100.0",
+        "rows": 12425,
+        "engines": 100
+      },
+      {
+        "condition": "0.0|100.0",
+        "rows": 12295,
+        "engines": 100
+      }
+    ]
+  },
+  {
+    "dataset": "FD004",
+    "condition_count": 6,
+    "conditions": [
+      {
+        "condition": "0.0|100.0",
+        "rows": 9238,
+        "engines": 249
+      },
+      {
+        "condition": "10.0|100.0",
+        "rows": 9224,
+        "engines": 249
+      },
+      {
+        "condition": "20.0|100.0",
+        "rows": 9091,
+        "engines": 249
+      },
+      {
+        "condition": "25.0|60.0",
+        "rows": 9139,
+        "engines": 249
+      },
+      {
+        "condition": "35.0|100.0",
+        "rows": 9162,
+        "engines": 249
+      },
+      {
+        "condition": "42.0|100.0",
+        "rows": 15395,
+        "engines": 249
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "train_datasets": [
+    "FD001",
+    "FD002",
+    "FD003"
+  ],
+  "held_out_dataset": "FD004",
+  "protocol": "multi_dataset_held_out",
+  "mae": 0.11416013156837136,
+  "rmse": 0.1463821605032715,
+  "r2": 0.17729501825791727,
+  "correlation": 0.44424279454898075,
+  "spearman_correlation": 0.4463538352236365,
+  "early_life_mae": 0.21250439267354385,
+  "late_life_mae": 0.12121502343614632,
+  "smoothness_mean_abs_delta": 0.029243962277207984,
+  "monotonicity_violations": 5196,
+  "monotonicity_violation_rate": 0.5055950180013623,
+  "degradation_direction_consistency": 0.4978106451299017,
+  "windows": 10278,
+  "engines": 50,
+  "prediction_min": -0.005203336477279663,
+  "prediction_max": 0.428070604801178,
+  "training_time_seconds": 1522.921621699992,
+  "best_development_loss": 0.01084743062639609,
+  "epochs": 8,
+  "parameter_count": 68033,
+  "inference_time_seconds": 3.895380700007081,
+  "health_reference": 464.0,
+  "training_engines": 301,
+  "training_windows": 55426
+}

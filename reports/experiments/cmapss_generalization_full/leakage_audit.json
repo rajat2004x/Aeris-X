@@ -1,0 +1,10 @@
+{
+  "engine_level_splitting": "PASS",
+  "no_window_leakage": "PASS",
+  "target_dataset_held_out": "PASS",
+  "target_final_labels_used_for_selection": "PASS",
+  "training_only_scalers": "PASS",
+  "health_reference_training_only": "PASS",
+  "deterministic_seed": 42,
+  "protected_artifacts_overwritten": "PASS"
+}

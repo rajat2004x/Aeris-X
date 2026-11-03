@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "runner": "run_aerospace_data_expansion.py",
+  "external_data_downloaded": false,
+  "roadmap_advanced": false
+}

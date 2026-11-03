@@ -1,0 +1,8 @@
+{
+  "condition_aware_preprocessing": "DO_NOT_ADOPT",
+  "multi_condition_training": "PROMISING_BUT_PARTIAL",
+  "multi_dataset_scope": "C1 only; C2 and C3 were not run",
+  "final_recommendation": "STOP_OPTIMIZATION_AND_PROCEED_TO_ARCHITECTURE_DOMAIN_GENERALIZATION_RESEARCH",
+  "control_preserved": true,
+  "roadmap_modified": false
+}

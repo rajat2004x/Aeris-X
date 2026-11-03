@@ -1,0 +1,25 @@
+{
+  "method": "condition-specific z-normalization with source-global fallback",
+  "condition_definition": "round setting_1 and setting_3 to zero decimals; key is setting_1|setting_3",
+  "features": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "window_size": 30,
+  "statistics_fit": "training-engine rows only",
+  "fallback": "source training global statistics for unseen target conditions",
+  "health_definition": "clip(RUL / max(permitted training RUL), 0, 1)"
+}

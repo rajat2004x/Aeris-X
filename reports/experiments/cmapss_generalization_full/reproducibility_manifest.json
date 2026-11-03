@@ -1,0 +1,28 @@
+{
+  "python": "3.11.9",
+  "pytorch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "seed": 42,
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "architecture": "existing TransformerRegressor",
+  "epochs": 1,
+  "status": [
+    {
+      "experiment_id": "C2",
+      "status": "COMPLETED"
+    },
+    {
+      "experiment_id": "C3",
+      "status": "COMPLETED"
+    },
+    {
+      "experiment_id": "C4",
+      "status": "COMPLETED"
+    }
+  ]
+}

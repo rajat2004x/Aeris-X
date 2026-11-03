@@ -1,0 +1,34 @@
+{
+  "step": "12",
+  "dataset": "NASA C-MAPSS FD001",
+  "scope": "FD001-only scope for this milestone.",
+  "seed": 42,
+  "health_definition": "clip(RUL / max(y_train_RUL), 0, 1); 1 is high remaining life and 0 is near failure.",
+  "reference_max_rul": 332.0,
+  "train_windows": 15104,
+  "validation_windows": 2627,
+  "development_engines": [
+    1,
+    11,
+    19,
+    23,
+    31,
+    34,
+    40,
+    45,
+    46
+  ],
+  "final_engines": [
+    54,
+    71,
+    74,
+    81,
+    84,
+    91
+  ],
+  "selected_model": "transformer",
+  "selection_rule": "lowest development MAE, then RMSE, then model name",
+  "temporal_model": "existing frozen Step 8 Transformer checkpoint; no Step 8 retraining",
+  "scaler": "prepared Step 6 arrays reused unchanged; no scaler refit on development/final data",
+  "uncertainty": "not included; prior Step 9 coverage was poor and no calibrated uncertainty is claimed"
+}

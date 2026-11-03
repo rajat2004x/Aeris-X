@@ -1,0 +1,18 @@
+{
+  "fit_arrays": [
+    "X_train.npy"
+  ],
+  "threshold_arrays": [
+    "first half of X_validation.npy"
+  ],
+  "final_evaluation_arrays": [
+    "second half of X_validation.npy"
+  ],
+  "train_and_final_engine_split": "inherited from Step 6 prepared engine-level split",
+  "anomaly_labels_used_for_fit": false,
+  "anomaly_labels_used_for_threshold": false,
+  "final_holdout_used_for_model_selection": false,
+  "fault_injection_used_for_training": false,
+  "future_cycles_used": false,
+  "scope_note": "FD001 only; FD002-FD004 are unavailable in the processed evaluation contract."
+}

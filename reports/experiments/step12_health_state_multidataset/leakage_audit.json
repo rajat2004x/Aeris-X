@@ -1,0 +1,14 @@
+{
+  "engine_level_split": "PASS",
+  "no_window_leakage": "PASS",
+  "scaler_fit_only_on_training": "PASS",
+  "target_final_labels_used_for_selection": "PASS",
+  "target_final_data_used_for_tuning": "PASS",
+  "target_statistics_used_for_transfer_preprocessing": "PASS",
+  "no_future_window_contamination": "PASS",
+  "historical_artifacts_overwritten": "PASS",
+  "deterministic_split": "PASS",
+  "reproducible_seed": 42,
+  "checkpoint_provenance": "FD001 accepted Step 8 Transformer for transfer; isolated checkpoints for FD002-FD004 in this directory",
+  "fd001_processed_unchanged": true
+}

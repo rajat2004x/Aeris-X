@@ -1,0 +1,5 @@
+experiment_id,dataset,status
+cmapss_C2_C3_C4,C-MAPSS FD001-FD004,COMPLETED
+n_cmapss_audit,N-CMAPSS,DATA_REQUIRED
+spacecraft_audit,SMAP/MSL,DATA_REQUIRED
+synthetic_fdi,synthetic_aerospace,COMPLETED

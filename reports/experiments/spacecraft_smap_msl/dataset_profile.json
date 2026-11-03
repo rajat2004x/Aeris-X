@@ -1,0 +1,2669 @@
+{
+  "audit": {
+    "status": "AVAILABLE",
+    "source": "Original NASA/JPL SMAP/MSL anomaly benchmark distributed via Telemanom",
+    "original_source": "https://github.com/khundman/telemanom",
+    "distribution_source": "https://huggingface.co/datasets/appleparan/telemanom",
+    "root": "C:\\Users\\rajat\\AERIS-X\\data\\raw\\SMAP_MSL",
+    "files": [
+      "LICENSE.txt",
+      "labeled_anomalies.csv",
+      "test\\A-1.npy",
+      "test\\A-2.npy",
+      "test\\A-3.npy",
+      "test\\A-4.npy",
+      "test\\A-5.npy",
+      "test\\A-6.npy",
+      "test\\A-7.npy",
+      "test\\A-8.npy",
+      "test\\A-9.npy",
+      "test\\B-1.npy",
+      "test\\C-1.npy",
+      "test\\C-2.npy",
+      "test\\D-1.npy",
+      "test\\D-11.npy",
+      "test\\D-12.npy",
+      "test\\D-13.npy",
+      "test\\D-14.npy",
+      "test\\D-15.npy",
+      "test\\D-16.npy",
+      "test\\D-2.npy",
+      "test\\D-3.npy",
+      "test\\D-4.npy",
+      "test\\D-5.npy",
+      "test\\D-6.npy",
+      "test\\D-7.npy",
+      "test\\D-8.npy",
+      "test\\D-9.npy",
+      "test\\E-1.npy",
+      "test\\E-10.npy",
+      "test\\E-11.npy",
+      "test\\E-12.npy",
+      "test\\E-13.npy",
+      "test\\E-2.npy",
+      "test\\E-3.npy",
+      "test\\E-4.npy",
+      "test\\E-5.npy",
+      "test\\E-6.npy",
+      "test\\E-7.npy",
+      "test\\E-8.npy",
+      "test\\E-9.npy",
+      "test\\F-1.npy",
+      "test\\F-2.npy",
+      "test\\F-3.npy",
+      "test\\F-4.npy",
+      "test\\F-5.npy",
+      "test\\F-7.npy",
+      "test\\F-8.npy",
+      "test\\G-1.npy",
+      "test\\G-2.npy",
+      "test\\G-3.npy",
+      "test\\G-4.npy",
+      "test\\G-6.npy",
+      "test\\G-7.npy",
+      "test\\M-1.npy",
+      "test\\M-2.npy",
+      "test\\M-3.npy",
+      "test\\M-4.npy",
+      "test\\M-5.npy",
+      "test\\M-6.npy",
+      "test\\M-7.npy",
+      "test\\P-1.npy",
+      "test\\P-10.npy",
+      "test\\P-11.npy",
+      "test\\P-14.npy",
+      "test\\P-15.npy",
+      "test\\P-2.npy",
+      "test\\P-3.npy",
+      "test\\P-4.npy",
+      "test\\P-7.npy",
+      "test\\R-1.npy",
+      "test\\S-1.npy",
+      "test\\S-2.npy",
+      "test\\T-1.npy",
+      "test\\T-10.npy",
+      "test\\T-12.npy",
+      "test\\T-13.npy",
+      "test\\T-2.npy",
+      "test\\T-3.npy",
+      "test\\T-4.npy",
+      "test\\T-5.npy",
+      "test\\T-8.npy",
+      "test\\T-9.npy",
+      "train\\A-1.npy",
+      "train\\A-2.npy",
+      "train\\A-3.npy",
+      "train\\A-4.npy",
+      "train\\A-5.npy",
+      "train\\A-6.npy",
+      "train\\A-7.npy",
+      "train\\A-8.npy",
+      "train\\A-9.npy",
+      "train\\B-1.npy",
+      "train\\C-1.npy",
+      "train\\C-2.npy",
+      "train\\D-1.npy",
+      "train\\D-11.npy",
+      "train\\D-12.npy",
+      "train\\D-13.npy",
+      "train\\D-14.npy",
+      "train\\D-15.npy",
+      "train\\D-16.npy",
+      "train\\D-2.npy",
+      "train\\D-3.npy",
+      "train\\D-4.npy",
+      "train\\D-5.npy",
+      "train\\D-6.npy",
+      "train\\D-7.npy",
+      "train\\D-8.npy",
+      "train\\D-9.npy",
+      "train\\E-1.npy",
+      "train\\E-10.npy",
+      "train\\E-11.npy",
+      "train\\E-12.npy",
+      "train\\E-13.npy",
+      "train\\E-2.npy",
+      "train\\E-3.npy",
+      "train\\E-4.npy",
+      "train\\E-5.npy",
+      "train\\E-6.npy",
+      "train\\E-7.npy",
+      "train\\E-8.npy",
+      "train\\E-9.npy",
+      "train\\F-1.npy",
+      "train\\F-2.npy",
+      "train\\F-3.npy",
+      "train\\F-4.npy",
+      "train\\F-5.npy",
+      "train\\F-7.npy",
+      "train\\F-8.npy",
+      "train\\G-1.npy",
+      "train\\G-2.npy",
+      "train\\G-3.npy",
+      "train\\G-4.npy",
+      "train\\G-6.npy",
+      "train\\G-7.npy",
+      "train\\M-1.npy",
+      "train\\M-2.npy",
+      "train\\M-3.npy",
+      "train\\M-4.npy",
+      "train\\M-5.npy",
+      "train\\M-6.npy",
+      "train\\M-7.npy",
+      "train\\P-1.npy",
+      "train\\P-10.npy",
+      "train\\P-11.npy",
+      "train\\P-14.npy",
+      "train\\P-15.npy",
+      "train\\P-2.npy",
+      "train\\P-3.npy",
+      "train\\P-4.npy",
+      "train\\P-7.npy",
+      "train\\R-1.npy",
+      "train\\S-1.npy",
+      "train\\S-2.npy",
+      "train\\T-1.npy",
+      "train\\T-10.npy",
+      "train\\T-12.npy",
+      "train\\T-13.npy",
+      "train\\T-2.npy",
+      "train\\T-3.npy",
+      "train\\T-4.npy",
+      "train\\T-5.npy",
+      "train\\T-8.npy",
+      "train\\T-9.npy"
+    ],
+    "train_files": 82,
+    "test_files": 82,
+    "label_records": 82,
+    "spacecraft_counts": {
+      "SMAP": 55,
+      "MSL": 27
+    },
+    "channel_ids_match": true,
+    "label_ids_subset_of_files": true,
+    "unique_label_channels": 81,
+    "duplicate_label_channels": [
+      "P-2"
+    ],
+    "parseable_anomaly_sequences": 82,
+    "shape_counts": {
+      "(2880, 25)": 16,
+      "(2648, 25)": 1,
+      "(2736, 25)": 1,
+      "(2690, 25)": 1,
+      "(705, 25)": 1,
+      "(682, 25)": 1,
+      "(2879, 25)": 1,
+      "(762, 25)": 2,
+      "(2435, 25)": 1,
+      "(2158, 55)": 2,
+      "(764, 55)": 1,
+      "(2849, 25)": 1,
+      "(2611, 25)": 1,
+      "(312, 25)": 1,
+      "(1490, 25)": 1,
+      "(3675, 55)": 1,
+      "(2074, 55)": 1,
+      "(1451, 55)": 1,
+      "(2833, 25)": 1,
+      "(2561, 25)": 1,
+      "(2594, 25)": 1,
+      "(2583, 25)": 2,
+      "(2602, 25)": 1,
+      "(2769, 25)": 1,
+      "(2869, 25)": 1,
+      "(2861, 25)": 1,
+      "(2244, 55)": 1,
+      "(2598, 55)": 1,
+      "(2511, 55)": 1,
+      "(3342, 55)": 1,
+      "(2820, 25)": 1,
+      "(2478, 25)": 1,
+      "(2624, 25)": 1,
+      "(2551, 25)": 1,
+      "(2881, 25)": 1,
+      "(2446, 25)": 1,
+      "(2209, 55)": 1,
+      "(2208, 55)": 1,
+      "(2037, 55)": 1,
+      "(2076, 55)": 1,
+      "(2032, 55)": 1,
+      "(1565, 55)": 1,
+      "(1587, 55)": 1,
+      "(2872, 25)": 1,
+      "(4308, 55)": 1,
+      "(3969, 55)": 1,
+      "(2880, 55)": 1,
+      "(3682, 55)": 1,
+      "(2821, 25)": 1,
+      "(2855, 25)": 2,
+      "(2609, 25)": 1,
+      "(2853, 25)": 1,
+      "(2874, 25)": 1,
+      "(2818, 25)": 1,
+      "(926, 55)": 1,
+      "(2875, 25)": 1,
+      "(425, 55)": 1,
+      "(1145, 55)": 2,
+      "(2876, 25)": 1,
+      "(2272, 55)": 2,
+      "(748, 55)": 1,
+      "(439, 55)": 1,
+      "(8640, 25)": 4,
+      "(7914, 25)": 1,
+      "(8205, 25)": 1,
+      "(8080, 25)": 1,
+      "(4693, 25)": 1,
+      "(4453, 25)": 1,
+      "(8631, 25)": 1,
+      "(8375, 25)": 1,
+      "(8434, 25)": 1,
+      "(8044, 25)": 1,
+      "(2264, 55)": 1,
+      "(2051, 55)": 1,
+      "(8509, 25)": 1,
+      "(7431, 25)": 1,
+      "(7918, 25)": 1,
+      "(7663, 25)": 1,
+      "(2625, 55)": 1,
+      "(2191, 55)": 1,
+      "(8595, 25)": 1,
+      "(8473, 25)": 1,
+      "(7628, 25)": 1,
+      "(7884, 25)": 1,
+      "(7642, 25)": 1,
+      "(7874, 25)": 1,
+      "(7406, 25)": 1,
+      "(8516, 25)": 1,
+      "(8505, 25)": 2,
+      "(8514, 25)": 1,
+      "(8512, 25)": 1,
+      "(8532, 25)": 2,
+      "(8307, 25)": 1,
+      "(8354, 25)": 1,
+      "(8294, 25)": 1,
+      "(8300, 25)": 1,
+      "(8310, 25)": 1,
+      "(8302, 25)": 1,
+      "(8584, 25)": 1,
+      "(8626, 25)": 1,
+      "(8376, 25)": 1,
+      "(3422, 55)": 1,
+      "(3922, 55)": 1,
+      "(5054, 55)": 1,
+      "(2487, 55)": 1,
+      "(8469, 25)": 1,
+      "(7361, 25)": 1,
+      "(7907, 25)": 1,
+      "(7632, 25)": 1,
+      "(8029, 25)": 1,
+      "(2277, 55)": 2,
+      "(2127, 55)": 1,
+      "(2038, 55)": 1,
+      "(2303, 55)": 1,
+      "(2049, 55)": 1,
+      "(2156, 55)": 1,
+      "(6100, 55)": 2,
+      "(3535, 55)": 1,
+      "(2856, 55)": 1,
+      "(8209, 25)": 1,
+      "(8493, 25)": 1,
+      "(7783, 25)": 1,
+      "(8071, 25)": 1,
+      "(7244, 25)": 1,
+      "(7331, 25)": 1,
+      "(1827, 55)": 1,
+      "(8612, 25)": 1,
+      "(670, 55)": 1,
+      "(2430, 55)": 2,
+      "(8625, 25)": 1,
+      "(8579, 25)": 1,
+      "(2217, 55)": 1,
+      "(2218, 55)": 1,
+      "(1519, 55)": 1,
+      "(1096, 55)": 1
+    },
+    "dtypes": {
+      "float64": 164
+    },
+    "missing_values": 0,
+    "sequence_length_min": 312,
+    "sequence_length_max": 8640,
+    "size_bytes": 173374717,
+    "label_columns": [
+      "chan_id",
+      "spacecraft",
+      "anomaly_sequences",
+      "class",
+      "num_values"
+    ],
+    "split": "temporal/channel-level; normal training only; validation threshold calibration",
+    "license": "BSD-style license included in data/raw/SMAP_MSL/LICENSE.txt",
+    "reason": null
+  },
+  "profile": {
+    "train_file_count": 82,
+    "test_file_count": 82,
+    "channel_ids": [
+      "A-1",
+      "A-2",
+      "A-3",
+      "A-4",
+      "A-5",
+      "A-6",
+      "A-7",
+      "A-8",
+      "A-9",
+      "B-1",
+      "C-1",
+      "C-2",
+      "D-1",
+      "D-11",
+      "D-12",
+      "D-13",
+      "D-14",
+      "D-15",
+      "D-16",
+      "D-2",
+      "D-3",
+      "D-4",
+      "D-5",
+      "D-6",
+      "D-7",
+      "D-8",
+      "D-9",
+      "E-1",
+      "E-10",
+      "E-11",
+      "E-12",
+      "E-13",
+      "E-2",
+      "E-3",
+      "E-4",
+      "E-5",
+      "E-6",
+      "E-7",
+      "E-8",
+      "E-9",
+      "F-1",
+      "F-2",
+      "F-3",
+      "F-4",
+      "F-5",
+      "F-7",
+      "F-8",
+      "G-1",
+      "G-2",
+      "G-3",
+      "G-4",
+      "G-6",
+      "G-7",
+      "M-1",
+      "M-2",
+      "M-3",
+      "M-4",
+      "M-5",
+      "M-6",
+      "M-7",
+      "P-1",
+      "P-10",
+      "P-11",
+      "P-14",
+      "P-15",
+      "P-2",
+      "P-3",
+      "P-4",
+      "P-7",
+      "R-1",
+      "S-1",
+      "S-2",
+      "T-1",
+      "T-10",
+      "T-12",
+      "T-13",
+      "T-2",
+      "T-3",
+      "T-4",
+      "T-5",
+      "T-8",
+      "T-9"
+    ],
+    "spacecraft_counts": {
+      "SMAP": 55,
+      "MSL": 27
+    },
+    "label_record_count": 82,
+    "unique_label_ids": 81,
+    "duplicate_label_ids": [
+      "P-2"
+    ],
+    "length_min": 312,
+    "length_max": 8640,
+    "channels": {
+      "A-1": {
+        "train_length": 2880,
+        "test_length": 8640,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8640,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 4,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.061639305555555565,
+        "std": 0.24049294378552746,
+        "anomaly_sequences": [
+          [
+            4690,
+            4774
+          ]
+        ]
+      },
+      "A-2": {
+        "train_length": 2648,
+        "test_length": 7914,
+        "train_shape": [
+          2648,
+          25
+        ],
+        "test_shape": [
+          7914,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.020496042595164115,
+        "std": 0.18087346639616142,
+        "anomaly_sequences": [
+          [
+            4450,
+            4560
+          ]
+        ]
+      },
+      "A-3": {
+        "train_length": 2736,
+        "test_length": 8205,
+        "train_shape": [
+          2736,
+          25
+        ],
+        "test_shape": [
+          8205,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.02187181251683108,
+        "std": 0.16971370814932624,
+        "anomaly_sequences": [
+          [
+            4575,
+            4760
+          ]
+        ]
+      },
+      "A-4": {
+        "train_length": 2690,
+        "test_length": 8080,
+        "train_shape": [
+          2690,
+          25
+        ],
+        "test_shape": [
+          8080,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.025686252881732947,
+        "std": 0.16037728082684363,
+        "anomaly_sequences": [
+          [
+            4550,
+            4660
+          ]
+        ]
+      },
+      "A-5": {
+        "train_length": 705,
+        "test_length": 4693,
+        "train_shape": [
+          705,
+          25
+        ],
+        "test_shape": [
+          4693,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 14,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.01705852804786992,
+        "std": 0.17436365001353724,
+        "anomaly_sequences": [
+          [
+            2750,
+            2800
+          ]
+        ]
+      },
+      "A-6": {
+        "train_length": 682,
+        "test_length": 4453,
+        "train_shape": [
+          682,
+          25
+        ],
+        "test_shape": [
+          4453,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 14,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.010845109808081949,
+        "std": 0.08960718016713752,
+        "anomaly_sequences": [
+          [
+            1890,
+            1930
+          ]
+        ]
+      },
+      "A-7": {
+        "train_length": 2879,
+        "test_length": 8631,
+        "train_shape": [
+          2879,
+          25
+        ],
+        "test_shape": [
+          8631,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 13,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.013020306773233693,
+        "std": 0.10404228090169367,
+        "anomaly_sequences": [
+          [
+            6200,
+            8600
+          ]
+        ]
+      },
+      "A-8": {
+        "train_length": 762,
+        "test_length": 8375,
+        "train_shape": [
+          762,
+          25
+        ],
+        "test_shape": [
+          8375,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 12,
+        "min": -1.0,
+        "max": 1.0000000000000002,
+        "mean": -0.02096782451227119,
+        "std": 0.14789554341736605,
+        "anomaly_sequences": [
+          [
+            4569,
+            8374
+          ]
+        ]
+      },
+      "A-9": {
+        "train_length": 762,
+        "test_length": 8434,
+        "train_shape": [
+          762,
+          25
+        ],
+        "test_shape": [
+          8434,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 12,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.015499068819900744,
+        "std": 0.13860602092574847,
+        "anomaly_sequences": [
+          [
+            4569,
+            8433
+          ]
+        ]
+      },
+      "B-1": {
+        "train_length": 2435,
+        "test_length": 8044,
+        "train_shape": [
+          2435,
+          25
+        ],
+        "test_shape": [
+          8044,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 11,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.015249546712472565,
+        "std": 0.20461399828516266,
+        "anomaly_sequences": [
+          [
+            5060,
+            5130
+          ]
+        ]
+      },
+      "C-1": {
+        "train_length": 2158,
+        "test_length": 2264,
+        "train_shape": [
+          2158,
+          55
+        ],
+        "test_shape": [
+          2264,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 37,
+        "min": -1.0,
+        "max": 2.1934477379095165,
+        "mean": -0.006812458510428735,
+        "std": 0.12346190010821924,
+        "anomaly_sequences": [
+          [
+            550,
+            750
+          ],
+          [
+            2100,
+            2210
+          ]
+        ]
+      },
+      "C-2": {
+        "train_length": 764,
+        "test_length": 2051,
+        "train_shape": [
+          764,
+          55
+        ],
+        "test_shape": [
+          2051,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 41,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.005442651116386368,
+        "std": 0.13415478587177437,
+        "anomaly_sequences": [
+          [
+            290,
+            390
+          ],
+          [
+            1540,
+            1575
+          ]
+        ]
+      },
+      "D-1": {
+        "train_length": 2849,
+        "test_length": 8509,
+        "train_shape": [
+          2849,
+          25
+        ],
+        "test_shape": [
+          8509,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0013264976459903032,
+        "std": 0.18558015780044387,
+        "anomaly_sequences": [
+          [
+            5250,
+            8508
+          ]
+        ]
+      },
+      "D-11": {
+        "train_length": 2611,
+        "test_length": 7431,
+        "train_shape": [
+          2611,
+          25
+        ],
+        "test_shape": [
+          7431,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 15,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.00424458211185536,
+        "std": 0.16809490013158784,
+        "anomaly_sequences": [
+          [
+            4270,
+            4330
+          ]
+        ]
+      },
+      "D-12": {
+        "train_length": 312,
+        "test_length": 7918,
+        "train_shape": [
+          312,
+          25
+        ],
+        "test_shape": [
+          7918,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 17,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.026675387185354997,
+        "std": 0.1785464961325466,
+        "anomaly_sequences": [
+          [
+            5178,
+            7917
+          ]
+        ]
+      },
+      "D-13": {
+        "train_length": 1490,
+        "test_length": 7663,
+        "train_shape": [
+          1490,
+          25
+        ],
+        "test_shape": [
+          7663,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 10,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.014565716158636513,
+        "std": 0.206778524280311,
+        "anomaly_sequences": [
+          [
+            5070,
+            5230
+          ]
+        ]
+      },
+      "D-14": {
+        "train_length": 3675,
+        "test_length": 2625,
+        "train_shape": [
+          3675,
+          55
+        ],
+        "test_shape": [
+          2625,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 21,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.010456400742115027,
+        "std": 0.15721904289703448,
+        "anomaly_sequences": [
+          [
+            1630,
+            1650
+          ],
+          [
+            1800,
+            2000
+          ]
+        ]
+      },
+      "D-15": {
+        "train_length": 2074,
+        "test_length": 2158,
+        "train_shape": [
+          2074,
+          55
+        ],
+        "test_shape": [
+          2158,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.0,
+        "max": 1.3757519666820917,
+        "mean": 0.01931243920905992,
+        "std": 0.1538635904509642,
+        "anomaly_sequences": [
+          [
+            1500,
+            2140
+          ]
+        ]
+      },
+      "D-16": {
+        "train_length": 1451,
+        "test_length": 2191,
+        "train_shape": [
+          1451,
+          55
+        ],
+        "test_shape": [
+          2191,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.0,
+        "max": 1.008879901529805,
+        "mean": 0.0015518644360428958,
+        "std": 0.15571139254962885,
+        "anomaly_sequences": [
+          [
+            600,
+            1250
+          ]
+        ]
+      },
+      "D-2": {
+        "train_length": 2880,
+        "test_length": 8595,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8595,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.007362091503267974,
+        "std": 0.24653733590776278,
+        "anomaly_sequences": [
+          [
+            4319,
+            8536
+          ]
+        ]
+      },
+      "D-3": {
+        "train_length": 2880,
+        "test_length": 8640,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8640,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0000000000000004,
+        "mean": -0.0059108960981201775,
+        "std": 0.22716258630707128,
+        "anomaly_sequences": [
+          [
+            5225,
+            8500
+          ]
+        ]
+      },
+      "D-4": {
+        "train_length": 2833,
+        "test_length": 8473,
+        "train_shape": [
+          2833,
+          25
+        ],
+        "test_shape": [
+          8473,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0000000000000004,
+        "mean": -0.005894053586078519,
+        "std": 0.22918379083955728,
+        "anomaly_sequences": [
+          [
+            5225,
+            8472
+          ]
+        ]
+      },
+      "D-5": {
+        "train_length": 2561,
+        "test_length": 7628,
+        "train_shape": [
+          2561,
+          25
+        ],
+        "test_shape": [
+          7628,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 6,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.0024762564554337454,
+        "std": 0.249264488366922,
+        "anomaly_sequences": [
+          [
+            4800,
+            4850
+          ]
+        ]
+      },
+      "D-6": {
+        "train_length": 2594,
+        "test_length": 7884,
+        "train_shape": [
+          2594,
+          25
+        ],
+        "test_shape": [
+          7884,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 6,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.009370531508647001,
+        "std": 0.23134534273562604,
+        "anomaly_sequences": [
+          [
+            4870,
+            4950
+          ]
+        ]
+      },
+      "D-7": {
+        "train_length": 2583,
+        "test_length": 7642,
+        "train_shape": [
+          2583,
+          25
+        ],
+        "test_shape": [
+          7642,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.005297799511002445,
+        "std": 0.23853270256037615,
+        "anomaly_sequences": [
+          [
+            4940,
+            7641
+          ]
+        ]
+      },
+      "D-8": {
+        "train_length": 2602,
+        "test_length": 7874,
+        "train_shape": [
+          2602,
+          25
+        ],
+        "test_shape": [
+          7874,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 10,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.03833906071019473,
+        "std": 0.20045802356399556,
+        "anomaly_sequences": [
+          [
+            4370,
+            4420
+          ]
+        ]
+      },
+      "D-9": {
+        "train_length": 2583,
+        "test_length": 7406,
+        "train_shape": [
+          2583,
+          25
+        ],
+        "test_shape": [
+          7406,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 11,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.03033737110821904,
+        "std": 0.2035244966797859,
+        "anomaly_sequences": [
+          [
+            6250,
+            7405
+          ]
+        ]
+      },
+      "E-1": {
+        "train_length": 2880,
+        "test_length": 8516,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8516,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.007525447525447525,
+        "std": 0.2341740432534243,
+        "anomaly_sequences": [
+          [
+            5000,
+            5030
+          ],
+          [
+            5610,
+            6086
+          ]
+        ]
+      },
+      "E-10": {
+        "train_length": 2880,
+        "test_length": 8505,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8505,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0071684051636014485,
+        "std": 0.23510014652951805,
+        "anomaly_sequences": [
+          [
+            5000,
+            5050
+          ],
+          [
+            5601,
+            5871
+          ]
+        ]
+      },
+      "E-11": {
+        "train_length": 2880,
+        "test_length": 8514,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8514,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0070596706679578744,
+        "std": 0.23518571044948075,
+        "anomaly_sequences": [
+          [
+            5000,
+            5050
+          ],
+          [
+            5614,
+            5857
+          ]
+        ]
+      },
+      "E-12": {
+        "train_length": 2880,
+        "test_length": 8512,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8512,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0000000000000002,
+        "mean": -0.008449016853932583,
+        "std": 0.2352027372233326,
+        "anomaly_sequences": [
+          [
+            5610,
+            6141
+          ],
+          [
+            5000,
+            5050
+          ]
+        ]
+      },
+      "E-13": {
+        "train_length": 2880,
+        "test_length": 8640,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8640,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 4,
+        "min": -1.0,
+        "max": 1.0000000000000002,
+        "mean": -0.003025063926677246,
+        "std": 0.21986791298065836,
+        "anomaly_sequences": [
+          [
+            5309,
+            5410
+          ],
+          [
+            5600,
+            5640
+          ],
+          [
+            6449,
+            6569
+          ]
+        ]
+      },
+      "E-2": {
+        "train_length": 2880,
+        "test_length": 8532,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8532,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.001417351720980088,
+        "std": 0.16597275310177617,
+        "anomaly_sequences": [
+          [
+            5598,
+            6995
+          ]
+        ]
+      },
+      "E-3": {
+        "train_length": 2880,
+        "test_length": 8307,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8307,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0000000000000004,
+        "mean": 0.03188806023203942,
+        "std": 0.18136868589330274,
+        "anomaly_sequences": [
+          [
+            5094,
+            8306
+          ]
+        ]
+      },
+      "E-4": {
+        "train_length": 2880,
+        "test_length": 8354,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8354,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -0.9999999999999999,
+        "max": 1.0000000000000004,
+        "mean": 0.006726403027452419,
+        "std": 0.15600794733778647,
+        "anomaly_sequences": [
+          [
+            5450,
+            8261
+          ]
+        ]
+      },
+      "E-5": {
+        "train_length": 2880,
+        "test_length": 8294,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8294,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.013993198496509755,
+        "std": 0.22265061700124897,
+        "anomaly_sequences": [
+          [
+            5600,
+            5920
+          ]
+        ]
+      },
+      "E-6": {
+        "train_length": 2880,
+        "test_length": 8300,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8300,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.05606379895251848,
+        "std": 0.22958990245494987,
+        "anomaly_sequences": [
+          [
+            5610,
+            5675
+          ]
+        ]
+      },
+      "E-7": {
+        "train_length": 2769,
+        "test_length": 8310,
+        "train_shape": [
+          2769,
+          25
+        ],
+        "test_shape": [
+          8310,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.02317049063342355,
+        "std": 0.22934020092455115,
+        "anomaly_sequences": [
+          [
+            5394,
+            5674
+          ]
+        ]
+      },
+      "E-8": {
+        "train_length": 2880,
+        "test_length": 8532,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8532,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0000000000000004,
+        "mean": 0.003621427485171771,
+        "std": 0.1569815965937008,
+        "anomaly_sequences": [
+          [
+            5400,
+            6022
+          ]
+        ]
+      },
+      "E-9": {
+        "train_length": 2880,
+        "test_length": 8302,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8302,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0000000000000018,
+        "mean": 0.006927327377893921,
+        "std": 0.1501490222625268,
+        "anomaly_sequences": [
+          [
+            5550,
+            5900
+          ]
+        ]
+      },
+      "F-1": {
+        "train_length": 2869,
+        "test_length": 8584,
+        "train_shape": [
+          2869,
+          25
+        ],
+        "test_shape": [
+          8584,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 8,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0015221495414882457,
+        "std": 0.10662868785947552,
+        "anomaly_sequences": [
+          [
+            5392,
+            5492
+          ]
+        ]
+      },
+      "F-2": {
+        "train_length": 2861,
+        "test_length": 8626,
+        "train_shape": [
+          2861,
+          25
+        ],
+        "test_shape": [
+          8626,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 10,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.018221929163321944,
+        "std": 0.11009727142293552,
+        "anomaly_sequences": [
+          [
+            5669,
+            8625
+          ]
+        ]
+      },
+      "F-3": {
+        "train_length": 2880,
+        "test_length": 8376,
+        "train_shape": [
+          2880,
+          25
+        ],
+        "test_shape": [
+          8376,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.016242517153014006,
+        "std": 0.1727351980950366,
+        "anomaly_sequences": [
+          [
+            5600,
+            5640
+          ]
+        ]
+      },
+      "F-4": {
+        "train_length": 2244,
+        "test_length": 3422,
+        "train_shape": [
+          2244,
+          55
+        ],
+        "test_shape": [
+          3422,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 42,
+        "min": -1.0,
+        "max": 1.4654727517812436,
+        "mean": -0.005807139601202028,
+        "std": 0.10272925368091922,
+        "anomaly_sequences": [
+          [
+            2700,
+            2770
+          ]
+        ]
+      },
+      "F-5": {
+        "train_length": 2598,
+        "test_length": 3922,
+        "train_shape": [
+          2598,
+          55
+        ],
+        "test_shape": [
+          3922,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 42,
+        "min": -1.1163775338154294,
+        "max": 6.954363220802578,
+        "mean": -0.0013960045076860488,
+        "std": 0.1506043611211319,
+        "anomaly_sequences": [
+          [
+            3550,
+            3700
+          ]
+        ]
+      },
+      "F-7": {
+        "train_length": 2511,
+        "test_length": 5054,
+        "train_shape": [
+          2511,
+          55
+        ],
+        "test_shape": [
+          5054,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 40,
+        "min": -0.9999999999999998,
+        "max": 1.0,
+        "mean": -0.008619239319834162,
+        "std": 0.12318482778184317,
+        "anomaly_sequences": [
+          [
+            1250,
+            1450
+          ],
+          [
+            2670,
+            2790
+          ],
+          [
+            3325,
+            3425
+          ]
+        ]
+      },
+      "F-8": {
+        "train_length": 3342,
+        "test_length": 2487,
+        "train_shape": [
+          3342,
+          55
+        ],
+        "test_shape": [
+          2487,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 41,
+        "min": -1.0,
+        "max": 1.3043478260869565,
+        "mean": -0.012646865169857404,
+        "std": 0.13532766243914043,
+        "anomaly_sequences": [
+          [
+            1950,
+            2486
+          ]
+        ]
+      },
+      "G-1": {
+        "train_length": 2820,
+        "test_length": 8469,
+        "train_shape": [
+          2820,
+          25
+        ],
+        "test_shape": [
+          8469,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.023750692575947037,
+        "std": 0.1735405099274769,
+        "anomaly_sequences": [
+          [
+            4770,
+            4890
+          ]
+        ]
+      },
+      "G-2": {
+        "train_length": 2478,
+        "test_length": 7361,
+        "train_shape": [
+          2478,
+          25
+        ],
+        "test_shape": [
+          7361,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.015830877121658704,
+        "std": 0.2528050143891289,
+        "anomaly_sequences": [
+          [
+            4030,
+            4070
+          ]
+        ]
+      },
+      "G-3": {
+        "train_length": 2624,
+        "test_length": 7907,
+        "train_shape": [
+          2624,
+          25
+        ],
+        "test_shape": [
+          7907,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 5,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.06441401576298547,
+        "std": 0.24575003819634345,
+        "anomaly_sequences": [
+          [
+            4200,
+            4250
+          ]
+        ]
+      },
+      "G-4": {
+        "train_length": 2551,
+        "test_length": 7632,
+        "train_shape": [
+          2551,
+          25
+        ],
+        "test_shape": [
+          7632,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 12,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.04102343120887754,
+        "std": 0.19787438996246126,
+        "anomaly_sequences": [
+          [
+            4690,
+            4720
+          ]
+        ]
+      },
+      "G-6": {
+        "train_length": 2881,
+        "test_length": 8640,
+        "train_shape": [
+          2881,
+          25
+        ],
+        "test_shape": [
+          8640,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 11,
+        "min": -1.0,
+        "max": 1.0000000000000002,
+        "mean": 0.0076751690523793855,
+        "std": 0.1567743232849735,
+        "anomaly_sequences": [
+          [
+            5600,
+            5700
+          ]
+        ]
+      },
+      "G-7": {
+        "train_length": 2446,
+        "test_length": 8029,
+        "train_shape": [
+          2446,
+          25
+        ],
+        "test_shape": [
+          8029,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 14,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.04027392203659507,
+        "std": 0.19750880752643737,
+        "anomaly_sequences": [
+          [
+            3650,
+            3750
+          ],
+          [
+            5050,
+            5100
+          ],
+          [
+            7560,
+            7675
+          ]
+        ]
+      },
+      "M-1": {
+        "train_length": 2209,
+        "test_length": 2277,
+        "train_shape": [
+          2209,
+          55
+        ],
+        "test_shape": [
+          2277,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 42,
+        "min": -1.0764755758631972,
+        "max": 2.4922982712327473,
+        "mean": 0.01434402247065938,
+        "std": 0.14138796029767792,
+        "anomaly_sequences": [
+          [
+            1110,
+            2250
+          ]
+        ]
+      },
+      "M-2": {
+        "train_length": 2208,
+        "test_length": 2277,
+        "train_shape": [
+          2208,
+          55
+        ],
+        "test_shape": [
+          2277,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 42,
+        "min": -1.210726170949998,
+        "max": 1.3352759069885178,
+        "mean": -0.0031911337903353766,
+        "std": 0.1408117562851248,
+        "anomaly_sequences": [
+          [
+            1110,
+            2250
+          ]
+        ]
+      },
+      "M-3": {
+        "train_length": 2037,
+        "test_length": 2127,
+        "train_shape": [
+          2037,
+          55
+        ],
+        "test_shape": [
+          2127,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 37,
+        "min": -1.47721668720188,
+        "max": 1.000070758018348,
+        "mean": 0.01557321584595917,
+        "std": 0.14263140710176603,
+        "anomaly_sequences": [
+          [
+            1250,
+            1500
+          ]
+        ]
+      },
+      "M-4": {
+        "train_length": 2076,
+        "test_length": 2038,
+        "train_shape": [
+          2076,
+          55
+        ],
+        "test_shape": [
+          2038,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 37,
+        "min": -1.4654640190905774,
+        "max": 1.1758926812181187,
+        "mean": 0.01656842429194303,
+        "std": 0.14040769060294592,
+        "anomaly_sequences": [
+          [
+            1250,
+            1500
+          ]
+        ]
+      },
+      "M-5": {
+        "train_length": 2032,
+        "test_length": 2303,
+        "train_shape": [
+          2032,
+          55
+        ],
+        "test_shape": [
+          2303,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.3089860212660558,
+        "max": 1.0951874959614576,
+        "mean": -0.0034367519205639866,
+        "std": 0.13513088051813965,
+        "anomaly_sequences": [
+          [
+            1250,
+            1550
+          ]
+        ]
+      },
+      "M-6": {
+        "train_length": 1565,
+        "test_length": 2049,
+        "train_shape": [
+          1565,
+          55
+        ],
+        "test_shape": [
+          2049,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.0,
+        "max": 258.1081081081054,
+        "mean": 0.12421867457838551,
+        "std": 4.003809552756458,
+        "anomaly_sequences": [
+          [
+            1850,
+            2030
+          ]
+        ]
+      },
+      "M-7": {
+        "train_length": 1587,
+        "test_length": 2156,
+        "train_shape": [
+          1587,
+          55
+        ],
+        "test_shape": [
+          2156,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.0020241085789672,
+        "max": 1.0,
+        "mean": -0.009386187090305857,
+        "std": 0.16155033009912526,
+        "anomaly_sequences": [
+          [
+            940,
+            1040
+          ]
+        ]
+      },
+      "P-1": {
+        "train_length": 2872,
+        "test_length": 8505,
+        "train_shape": [
+          2872,
+          25
+        ],
+        "test_shape": [
+          8505,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0000000000000004,
+        "mean": 0.003973600667942803,
+        "std": 0.18413977372365697,
+        "anomaly_sequences": [
+          [
+            2149,
+            2349
+          ],
+          [
+            4536,
+            4844
+          ],
+          [
+            3539,
+            3779
+          ]
+        ]
+      },
+      "P-10": {
+        "train_length": 4308,
+        "test_length": 6100,
+        "train_shape": [
+          4308,
+          55
+        ],
+        "test_shape": [
+          6100,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 28,
+        "min": -1.0,
+        "max": 1.001129464915996,
+        "mean": 0.015947770258304524,
+        "std": 0.13614301950794125,
+        "anomaly_sequences": [
+          [
+            4590,
+            4720
+          ]
+        ]
+      },
+      "P-11": {
+        "train_length": 3969,
+        "test_length": 3535,
+        "train_shape": [
+          3969,
+          55
+        ],
+        "test_shape": [
+          3535,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 39,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.016574662088423477,
+        "std": 0.11852061691903935,
+        "anomaly_sequences": [
+          [
+            1778,
+            1898
+          ],
+          [
+            1238,
+            1344
+          ]
+        ]
+      },
+      "P-14": {
+        "train_length": 2880,
+        "test_length": 6100,
+        "train_shape": [
+          2880,
+          55
+        ],
+        "test_shape": [
+          6100,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 30,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.01527282427930508,
+        "std": 0.13560010041325435,
+        "anomaly_sequences": [
+          [
+            4575,
+            4755
+          ]
+        ]
+      },
+      "P-15": {
+        "train_length": 3682,
+        "test_length": 2856,
+        "train_shape": [
+          3682,
+          55
+        ],
+        "test_shape": [
+          2856,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 36,
+        "min": -1.0000000000000002,
+        "max": 1.0052196607220525,
+        "mean": 0.010580058065018001,
+        "std": 0.13174150206188356,
+        "anomaly_sequences": [
+          [
+            1390,
+            1410
+          ]
+        ]
+      },
+      "P-2": {
+        "train_length": 2821,
+        "test_length": 8209,
+        "train_shape": [
+          2821,
+          25
+        ],
+        "test_shape": [
+          8209,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.01855206137909948,
+        "std": 0.2202127354488005,
+        "anomaly_sequences": [
+          [
+            5350,
+            6575
+          ],
+          [
+            5300,
+            6420
+          ]
+        ]
+      },
+      "P-3": {
+        "train_length": 2855,
+        "test_length": 8493,
+        "train_shape": [
+          2855,
+          25
+        ],
+        "test_shape": [
+          8493,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 1,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.010778974372753776,
+        "std": 0.13146535651638466,
+        "anomaly_sequences": [
+          [
+            5401,
+            6736
+          ]
+        ]
+      },
+      "P-4": {
+        "train_length": 2609,
+        "test_length": 7783,
+        "train_shape": [
+          2609,
+          25
+        ],
+        "test_shape": [
+          7783,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 7,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.03207467282525019,
+        "std": 0.21628931803673157,
+        "anomaly_sequences": [
+          [
+            950,
+            1080
+          ],
+          [
+            2150,
+            2350
+          ],
+          [
+            4770,
+            4880
+          ]
+        ]
+      },
+      "P-7": {
+        "train_length": 2853,
+        "test_length": 8071,
+        "train_shape": [
+          2853,
+          25
+        ],
+        "test_shape": [
+          8071,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 17,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.0028191999984842784,
+        "std": 0.06221501484639982,
+        "anomaly_sequences": [
+          [
+            4950,
+            6600
+          ]
+        ]
+      },
+      "R-1": {
+        "train_length": 2874,
+        "test_length": 7244,
+        "train_shape": [
+          2874,
+          25
+        ],
+        "test_shape": [
+          7244,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 17,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.04163323186400474,
+        "std": 0.19974098728650064,
+        "anomaly_sequences": [
+          [
+            4510,
+            4590
+          ]
+        ]
+      },
+      "S-1": {
+        "train_length": 2818,
+        "test_length": 7331,
+        "train_shape": [
+          2818,
+          25
+        ],
+        "test_shape": [
+          7331,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 6,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.010643335234420138,
+        "std": 0.1600197109642997,
+        "anomaly_sequences": [
+          [
+            5300,
+            5747
+          ]
+        ]
+      },
+      "S-2": {
+        "train_length": 926,
+        "test_length": 1827,
+        "train_shape": [
+          926,
+          55
+        ],
+        "test_shape": [
+          1827,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 41,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.004946669748703893,
+        "std": 0.17706741902568132,
+        "anomaly_sequences": [
+          [
+            900,
+            910
+          ]
+        ]
+      },
+      "T-1": {
+        "train_length": 2875,
+        "test_length": 8612,
+        "train_shape": [
+          2875,
+          25
+        ],
+        "test_shape": [
+          8612,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 10,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.02119046641399749,
+        "std": 0.15598975674429483,
+        "anomaly_sequences": [
+          [
+            2399,
+            3898
+          ],
+          [
+            6550,
+            6585
+          ]
+        ]
+      },
+      "T-10": {
+        "train_length": 425,
+        "test_length": 670,
+        "train_shape": [
+          425,
+          55
+        ],
+        "test_shape": [
+          670,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 43,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.005502031995508431,
+        "std": 0.09866061581506409,
+        "anomaly_sequences": []
+      },
+      "T-12": {
+        "train_length": 1145,
+        "test_length": 2430,
+        "train_shape": [
+          1145,
+          55
+        ],
+        "test_shape": [
+          2430,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 40,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0007345429906515508,
+        "std": 0.06929656688433694,
+        "anomaly_sequences": [
+          [
+            630,
+            750
+          ]
+        ]
+      },
+      "T-13": {
+        "train_length": 1145,
+        "test_length": 2430,
+        "train_shape": [
+          1145,
+          55
+        ],
+        "test_shape": [
+          2430,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 40,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.0021010958081538267,
+        "std": 0.08827223326592251,
+        "anomaly_sequences": [
+          [
+            690,
+            790
+          ],
+          [
+            1900,
+            2050
+          ]
+        ]
+      },
+      "T-2": {
+        "train_length": 2855,
+        "test_length": 8625,
+        "train_shape": [
+          2855,
+          25
+        ],
+        "test_shape": [
+          8625,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 10,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.02207317868168553,
+        "std": 0.15907560996054176,
+        "anomaly_sequences": [
+          [
+            6840,
+            8624
+          ]
+        ]
+      },
+      "T-3": {
+        "train_length": 2876,
+        "test_length": 8579,
+        "train_shape": [
+          2876,
+          25
+        ],
+        "test_shape": [
+          8579,
+          25
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 13,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.040153344318175244,
+        "std": 0.1943074073452491,
+        "anomaly_sequences": [
+          [
+            2098,
+            2180
+          ],
+          [
+            5200,
+            5300
+          ]
+        ]
+      },
+      "T-4": {
+        "train_length": 2272,
+        "test_length": 2217,
+        "train_shape": [
+          2272,
+          55
+        ],
+        "test_shape": [
+          2217,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 41,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.005168188906215193,
+        "std": 0.12154465644120083,
+        "anomaly_sequences": [
+          [
+            1172,
+            1240
+          ]
+        ]
+      },
+      "T-5": {
+        "train_length": 2272,
+        "test_length": 2218,
+        "train_shape": [
+          2272,
+          55
+        ],
+        "test_shape": [
+          2218,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 41,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.013349145286784485,
+        "std": 0.15097948761130714,
+        "anomaly_sequences": [
+          [
+            1200,
+            1225
+          ]
+        ]
+      },
+      "T-8": {
+        "train_length": 748,
+        "test_length": 1519,
+        "train_shape": [
+          748,
+          55
+        ],
+        "test_shape": [
+          1519,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 43,
+        "min": -1.0,
+        "max": 1.0294117647058822,
+        "mean": -0.0072925733633069055,
+        "std": 0.16880381615792533,
+        "anomaly_sequences": [
+          [
+            870,
+            930
+          ],
+          [
+            1330,
+            1370
+          ]
+        ]
+      },
+      "T-9": {
+        "train_length": 439,
+        "test_length": 1096,
+        "train_shape": [
+          439,
+          55
+        ],
+        "test_shape": [
+          1096,
+          55
+        ],
+        "dtype": "float64",
+        "missing_values": 0,
+        "infinite_values": 0,
+        "constant_features": 32,
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.02003860956910554,
+        "std": 0.12923286886337007,
+        "anomaly_sequences": [
+          [
+            780,
+            810
+          ],
+          [
+            890,
+            970
+          ]
+        ]
+      }
+    }
+  }
+}

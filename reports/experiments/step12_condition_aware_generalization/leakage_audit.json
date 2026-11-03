@@ -1,0 +1,13 @@
+{
+  "engine_level_splitting": "PASS",
+  "no_window_leakage": "PASS",
+  "condition_statistics_fit_only_on_permitted_training_data": "PASS",
+  "no_target_final_statistics_used": "PASS",
+  "no_target_labels_used_for_tuning": "PASS",
+  "no_target_test_engines_in_training": "PASS",
+  "health_reference_uses_permitted_training_data": "PASS",
+  "deterministic_splits": "PASS",
+  "reproducible_seed": 42,
+  "immutable_baseline_preserved": "PASS",
+  "no_historical_artifacts_overwritten": "PASS"
+}

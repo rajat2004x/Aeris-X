@@ -1,0 +1,29 @@
+{
+  "step": "9",
+  "purpose": "Compare completed Step 7 and Step 8 experiments without retraining.",
+  "dataset": "data/processed/cmapss_fd001",
+  "validation_protocol": "Existing FD001 validation arrays and metrics from source artifacts.",
+  "reproducible_inputs": [
+    "reports\\experiments\\step7_classical_ml\\comparison_results.csv",
+    "reports\\experiments\\step8_temporal_dl\\results.json",
+    "reports\\experiments\\step8_temporal_dl\\gpu\\transformer_gpu_results.json"
+  ],
+  "models": [
+    "XGBoost (reference)",
+    "Random Forest (reference)",
+    "Linear Regression (reference)",
+    "Mean RUL (reference)",
+    "LSTM (cpu)",
+    "GRU (cpu)",
+    "TCN (cpu)",
+    "Transformer (cpu)",
+    "Transformer (gpu)"
+  ],
+  "derived_fields": [
+    "transformer_cpu_vs_xgboost_mae_relative_change",
+    "transformer_cpu_vs_xgboost_rmse_relative_change",
+    "transformer_cpu_vs_xgboost_phm_relative_change",
+    "transformer_gpu_training_speedup_vs_cpu",
+    "transformer_gpu_inference_speedup_vs_cpu"
+  ]
+}

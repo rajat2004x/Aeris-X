@@ -1,0 +1,29 @@
+{
+  "experiments": [
+    {
+      "experiment": "dataset_profile",
+      "status": "COMPLETED",
+      "runtime": null,
+      "artifact": "dataset_profile.json"
+    },
+    {
+      "experiment": "classical_detectors",
+      "status": "COMPLETED",
+      "runtime": 69.001,
+      "artifact": "detector_comparison.csv"
+    },
+    {
+      "experiment": "autoencoder",
+      "status": "SKIPPED",
+      "runtime": 0,
+      "artifact": null,
+      "metrics": "Skipped to enforce bounded runtime"
+    },
+    {
+      "experiment": "robustness",
+      "status": "COMPLETED",
+      "runtime": null,
+      "artifact": "robustness_results.json"
+    }
+  ]
+}

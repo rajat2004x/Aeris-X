@@ -1,0 +1,8 @@
+{
+  "train_scaler_fitted": false,
+  "validation_used_for_checkpoint_selection": true,
+  "validation_labels_used_for_training": false,
+  "test_or_future_data_used": false,
+  "model_selection_on_final_evaluation": false,
+  "protocol": "preprocessed Step 6 arrays; fixed train/validation contract"
+}

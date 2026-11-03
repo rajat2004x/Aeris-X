@@ -20,6 +20,40 @@ from aeris.training.datasets import TemporalDataset
 from aeris.training.trainer import Trainer, seed_everything, select_device
 
 
+def _load_classical_reference(
+    output_dir: Path,
+    validation_size: int,
+) -> dict[str, Any]:
+    """Load the verified Step 7 XGBoost reference for a fair comparison."""
+    reference_dir = output_dir.parent / "step7_classical_ml"
+    results_path = reference_dir / "comparison_results.csv"
+    if not results_path.exists():
+        raise FileNotFoundError(f"Step 7 reference results are required: {results_path}")
+    reference = pd.read_csv(results_path)
+    row = reference.loc[reference["model"].eq("xgboost")]
+    if len(row) != 1:
+        raise ValueError("Step 7 reference results must contain exactly one XGBoost row.")
+    values = row.iloc[0]
+    return {
+        "model": "XGBoost",
+        "model_type": "classical_reference",
+        "mae": float(values["mae"]),
+        "rmse": float(values["rmse"]),
+        "phm_score": float(values["phm_score"]),
+        "training_time_seconds": float(values["training_time_seconds"]),
+        "inference_time_seconds": float(values["inference_time_seconds"]),
+        "inference_time_per_sample": float(values["inference_time_seconds"]) / validation_size,
+        "parameter_count": np.nan,
+        "trainable_parameter_count": np.nan,
+        "model_size_mb": (
+            (reference_dir / "models" / "xgboost.joblib").stat().st_size / (1024**2)
+            if (reference_dir / "models" / "xgboost.joblib").exists()
+            else np.nan
+        ),
+        "device": "reference",
+    }
+
+
 def _plot_results(
     results: pd.DataFrame,
     histories: dict[str, dict[str, Any]],
@@ -135,20 +169,7 @@ def run_temporal_benchmark(
         "TCN": lambda: TCNRegressor(input_size=X_train.shape[2]),
         "Transformer": lambda: TransformerRegressor(input_size=X_train.shape[2], max_length=X_train.shape[1]),
     }
-    rows: list[dict[str, Any]] = [{
-        "model": "XGBoost",
-        "model_type": "classical_reference",
-        "mae": 18.698258043515352,
-        "rmse": 26.407636014342945,
-        "phm_score": 118477.09623510219,
-        "training_time_seconds": np.nan,
-        "inference_time_seconds": np.nan,
-        "inference_time_per_sample": np.nan,
-        "parameter_count": np.nan,
-        "trainable_parameter_count": np.nan,
-        "model_size_mb": np.nan,
-        "device": "reference",
-    }]
+    rows: list[dict[str, Any]] = [_load_classical_reference(destination, len(y_validation))]
     histories: dict[str, dict[str, Any]] = {}
     predictions: dict[str, np.ndarray] = {}
     for name, builder in builders.items():

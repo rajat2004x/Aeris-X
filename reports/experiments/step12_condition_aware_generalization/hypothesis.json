@@ -1,0 +1,7 @@
+{
+  "H1": "Operating-condition effects contribute to FD001 transfer failure.",
+  "H2": "Training-only condition normalization reduces operating-condition variation.",
+  "H3": "Multi-condition training improves cross-condition generalization.",
+  "H4": "Multi-dataset training improves held-out-dataset performance.",
+  "H5": "Improvements survive a leakage audit without target-final statistics."
+}

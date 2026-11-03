@@ -1,0 +1,2 @@
+mae,rmse,r2,correlation,spearman_correlation,early_life_mae,late_life_mae,smoothness_mean_abs_delta,monotonicity_violations,monotonicity_violation_rate,degradation_direction_consistency,model,development_engines,final_engines
+0.05505474312826083,0.07959349643645235,0.8176013837644969,0.9189299719528282,0.9303994425914548,0.10450786492660946,0.010781340640586605,0.014062161484022494,479,0.43624772313296906,0.5683060109289617,transformer,9,6

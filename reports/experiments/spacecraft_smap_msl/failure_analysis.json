@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "false_positives",
+    "false_negatives",
+    "short_anomalies",
+    "long_anomalies",
+    "gradual_anomalies",
+    "abrupt_anomalies"
+  ],
+  "by_detector": {
+    "robust": {
+      "false_positives": 72013,
+      "false_negatives": 402201
+    },
+    "rolling": {
+      "false_positives": 64051,
+      "false_negatives": 406444
+    },
+    "pca": {
+      "false_positives": 67451,
+      "false_negatives": 424540
+    },
+    "isolation_forest": {
+      "false_positives": 70966,
+      "false_negatives": 413228
+    }
+  },
+  "limitations": "Failure categories are aggregate; morphology labels are not available in the benchmark CSV."
+}

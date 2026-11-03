@@ -11,20 +11,19 @@ from check_build_gate import check
 from validate_roadmap import validate
 
 
-def test_step_7_is_current_and_allowed():
+def test_step_13_is_current_and_allowed():
     assert validate()[0]
-    assert json.loads((ROOT / ".aeris/state.json").read_text())["current_step"] == "7"
-    assert check("7")[0]
+    assert json.loads((ROOT / ".aeris/state.json").read_text())["current_step"] == "13"
+    assert check("13")[0]
 
 
 def test_future_steps_are_blocked():
-    assert not check("8")[0]
-    assert not check("10")[0]
+    assert not check("14")[0]
 
 
 def test_historical_steps_do_not_advance_state():
     state = json.loads((ROOT / ".aeris/state.json").read_text())
-    assert "7" not in state["completed_steps"]
+    assert "10" in state["completed_steps"]
     assert state["historical_out_of_order_steps"] == ["10.1", "10.2"]
 
 
@@ -38,7 +37,7 @@ def test_invalid_state_fails(tmp_path):
     original = state_path.read_text(encoding="utf-8")
     try:
         state = json.loads(original)
-        state["current_step"] = "10"
+        state["current_step"] = "14"
         state_path.write_text(json.dumps(state), encoding="utf-8")
         assert not validate()[0]
     finally:

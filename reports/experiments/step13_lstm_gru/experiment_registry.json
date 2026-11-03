@@ -1,0 +1,30 @@
+{
+  "experiments": [
+    {
+      "experiment": "step13_lstm",
+      "model": "LSTM",
+      "status": "SUCCESS",
+      "runtime": 49.15248220000649,
+      "best_validation_loss": 872.0233214574029,
+      "artifacts": [
+        "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step13_lstm_gru\\models\\lstm.pt",
+        "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step13_lstm_gru\\predictions\\lstm_predictions.npy"
+      ],
+      "failure_reason": null
+    },
+    {
+      "experiment": "step13_gru",
+      "model": "GRU",
+      "status": "SUCCESS",
+      "runtime": 45.42392640002072,
+      "best_validation_loss": 834.4166407474421,
+      "artifacts": [
+        "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step13_lstm_gru\\models\\gru.pt",
+        "C:\\Users\\rajat\\AERIS-X\\reports\\experiments\\step13_lstm_gru\\predictions\\gru_predictions.npy"
+      ],
+      "failure_reason": null
+    }
+  ],
+  "reproducibility_manifest": "reproducibility_manifest.json",
+  "updated_at": "2026-11-03T09:01:24Z"
+}

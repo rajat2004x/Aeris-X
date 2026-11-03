@@ -1,0 +1,35 @@
+{
+  "step": "12 improvement",
+  "dataset": "NASA C-MAPSS FD001",
+  "baseline_artifacts_immutable": true,
+  "health_definition": "clip(RUL / 332.0, 0, 1)",
+  "development_engines": [
+    1,
+    11,
+    19,
+    23,
+    31,
+    34,
+    40,
+    45,
+    46
+  ],
+  "final_engines": [
+    54,
+    71,
+    74,
+    81,
+    84,
+    91
+  ],
+  "candidates": [
+    "lifecycle_huber",
+    "temporal_consistency"
+  ],
+  "selection_rule": "lowest development MAE, then RMSE, then model name",
+  "acceptance_rule": "lower MAE, no material RMSE/R2/Spearman regression, and no increase in monotonicity violations",
+  "selected_candidate": "lifecycle_huber",
+  "accepted": false,
+  "uncertainty": "Not operationally calibrated; no new uncertainty method tested.",
+  "robustness": "evaluation-only sensor_0 BIAS injection on final holdout windows"
+}

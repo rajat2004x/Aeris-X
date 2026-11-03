@@ -1,0 +1,138 @@
+{
+  "rows": [
+    {
+      "scenario_id": "normal_42",
+      "fault_type": "NORMAL",
+      "detected": false,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": false,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "bias_43_60",
+      "fault_type": "BIAS",
+      "detected": false,
+      "target_sensor": "compressor_pressure",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "drift_44_60",
+      "fault_type": "DRIFT",
+      "detected": true,
+      "target_sensor": "compressor_pressure",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "stuck_at_45_60",
+      "fault_type": "STUCK_AT",
+      "detected": false,
+      "target_sensor": "compressor_pressure",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "noise_46_60",
+      "fault_type": "NOISE",
+      "detected": false,
+      "target_sensor": "compressor_pressure",
+      "top1": true,
+      "top3": true,
+      "top5": true,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "intermittent_dropout_47_60",
+      "fault_type": "INTERMITTENT_DROPOUT",
+      "detected": false,
+      "target_sensor": "compressor_pressure",
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": false
+    },
+    {
+      "scenario_id": "compressor_degradation_48_60",
+      "fault_type": "COMPRESSOR_DEGRADATION",
+      "detected": true,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": true
+    },
+    {
+      "scenario_id": "turbine_degradation_49_60",
+      "fault_type": "TURBINE_DEGRADATION",
+      "detected": true,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": true
+    },
+    {
+      "scenario_id": "efficiency_loss_50_60",
+      "fault_type": "EFFICIENCY_LOSS",
+      "detected": true,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": true
+    },
+    {
+      "scenario_id": "temperature_degradation_51_60",
+      "fault_type": "TEMPERATURE_DEGRADATION",
+      "detected": true,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": true
+    },
+    {
+      "scenario_id": "pressure_degradation_52_60",
+      "fault_type": "PRESSURE_DEGRADATION",
+      "detected": true,
+      "target_sensor": null,
+      "top1": false,
+      "top3": false,
+      "top5": false,
+      "ground_truth_fault": true,
+      "ground_truth_degradation": true
+    }
+  ],
+  "faults": [
+    "BIAS",
+    "DRIFT",
+    "STUCK_AT",
+    "NOISE",
+    "INTERMITTENT_DROPOUT",
+    "COMPRESSOR_DEGRADATION",
+    "TURBINE_DEGRADATION",
+    "EFFICIENCY_LOSS",
+    "TEMPERATURE_DEGRADATION",
+    "PRESSURE_DEGRADATION"
+  ],
+  "scope": "controlled synthetic telemetry for research and robustness evaluation"
+}

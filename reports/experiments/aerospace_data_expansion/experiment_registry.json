@@ -1,0 +1,22 @@
+[
+  {
+    "experiment_id": "cmapss_C2_C3_C4",
+    "dataset": "C-MAPSS FD001-FD004",
+    "status": "COMPLETED"
+  },
+  {
+    "experiment_id": "n_cmapss_audit",
+    "dataset": "N-CMAPSS",
+    "status": "DATA_REQUIRED"
+  },
+  {
+    "experiment_id": "spacecraft_audit",
+    "dataset": "SMAP/MSL",
+    "status": "DATA_REQUIRED"
+  },
+  {
+    "experiment_id": "synthetic_fdi",
+    "dataset": "synthetic_aerospace",
+    "status": "COMPLETED"
+  }
+]

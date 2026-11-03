@@ -16,7 +16,7 @@ The validation set was used only for evaluation and validation-based checkpoint 
 
 ```text
       model             model_type       mae      rmse     phm_score  training_time_seconds  inference_time_seconds  inference_time_per_sample  parameter_count  trainable_parameter_count  model_size_mb    device
-    XGBoost    classical_reference 18.698258 26.407636 118477.096235                    NaN                     NaN                        NaN              NaN                        NaN            NaN reference
+    XGBoost    classical_reference 18.698258 26.407636 118477.096235              11.724678                0.007463                   0.000003              NaN                        NaN       1.316036 reference
        LSTM temporal_deep_learning 18.805197 26.913818 139944.810847            1369.176877                2.154741                   0.000820         206465.0                   206465.0       0.787601       cpu
         GRU temporal_deep_learning 18.803086 26.879739 116200.217321             672.472100                1.019051                   0.000388         154881.0                   154881.0       0.590824       cpu
         TCN temporal_deep_learning 20.893047 28.058901 190438.446282             284.380870                0.740171                   0.000282         123457.0                   123457.0       0.470951       cpu

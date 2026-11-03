@@ -1,0 +1,88 @@
+{
+  "purpose": "descriptive comparison only; no direct model transfer claim",
+  "spacecraft": {
+    "channels": 82,
+    "label_records": 82,
+    "feature_summary_dimensions": 3,
+    "detectors": [
+      {
+        "detector": "isolation_forest",
+        "precision": 0.12919027297210084,
+        "recall": 0.20506753418938303,
+        "f1": 0.07707129737956418,
+        "accuracy": 0.7392287718793913,
+        "fpr": 0.17927569242225658,
+        "fnr": 0.7827373438593974,
+        "roc_auc": 0.5770919508466946,
+        "pr_auc": 0.20191045233810698,
+        "normal_only_fpr": 0.17927569242225658,
+        "anomaly_point_coverage": 0.20506753418938303,
+        "event_recall": 0.709349593495935,
+        "event_f1": 0.12252487952806954,
+        "mean_detection_delay": 33.03055555555555
+      },
+      {
+        "detector": "pca",
+        "precision": 0.11365390066542981,
+        "recall": 0.19911764228222123,
+        "f1": 0.06991833576673029,
+        "accuracy": 0.7448256030525793,
+        "fpr": 0.18286302083502257,
+        "fnr": 0.7886872357665592,
+        "roc_auc": 0.5542696115728436,
+        "pr_auc": 0.18734820907967906,
+        "normal_only_fpr": 0.18286302083502257,
+        "anomaly_point_coverage": 0.19911764228222123,
+        "event_recall": 0.8191056910569107,
+        "event_f1": 0.11294494612677651,
+        "mean_detection_delay": 28.48792270531401
+      },
+      {
+        "detector": "robust",
+        "precision": 0.15237618265319927,
+        "recall": 0.24429857563215204,
+        "f1": 0.09233669784469367,
+        "accuracy": 0.751654037509312,
+        "fpr": 0.18316218513654492,
+        "fnr": 0.7435063024166285,
+        "roc_auc": 0.5958135907891874,
+        "pr_auc": 0.22694156172081123,
+        "normal_only_fpr": 0.18316218513654492,
+        "anomaly_point_coverage": 0.24429857563215204,
+        "event_recall": 0.7317073170731707,
+        "event_f1": 0.15288127728504392,
+        "mean_detection_delay": 42.78306878306878
+      },
+      {
+        "detector": "rolling",
+        "precision": 0.15797093784446803,
+        "recall": 0.23950574122420662,
+        "f1": 0.09938182678797111,
+        "accuracy": 0.7642819299948823,
+        "fpr": 0.16838125250678992,
+        "fnr": 0.7482991368245738,
+        "roc_auc": 0.5797235002155209,
+        "pr_auc": 0.22550688620268727,
+        "normal_only_fpr": 0.16838125250678992,
+        "anomaly_point_coverage": 0.23950574122420662,
+        "event_recall": 0.7560975609756098,
+        "event_f1": 0.13292375009872184,
+        "mean_detection_delay": 23.556410256410256
+      }
+    ]
+  },
+  "cmapss_step11_reference": {
+    "dataset": "FD001",
+    "detector": "robust_multisensor_mad",
+    "precision": 0.6,
+    "recall": 0.06,
+    "f1": 0.10909090909090909,
+    "fpr": 0.013333333333333334,
+    "pr_auc": 0.276355124413086,
+    "event_recall": 0.01
+  },
+  "interpretation": [
+    "SMAP/MSL contains channel-specific variable-length telemetry rather than fixed engine windows.",
+    "The comparison is descriptive because preprocessing and labels differ."
+  ]
+}

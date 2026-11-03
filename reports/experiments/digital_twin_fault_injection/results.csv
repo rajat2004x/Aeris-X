@@ -1,0 +1,12 @@
+scenario_id,fault_type,detected,target_sensor,top1,top3,top5,ground_truth_fault,ground_truth_degradation
+normal_42,NORMAL,False,,False,False,False,False,False
+bias_43_60,BIAS,False,compressor_pressure,True,True,True,True,False
+drift_44_60,DRIFT,True,compressor_pressure,True,True,True,True,False
+stuck_at_45_60,STUCK_AT,False,compressor_pressure,False,False,False,True,False
+noise_46_60,NOISE,False,compressor_pressure,True,True,True,True,False
+intermittent_dropout_47_60,INTERMITTENT_DROPOUT,False,compressor_pressure,False,False,False,True,False
+compressor_degradation_48_60,COMPRESSOR_DEGRADATION,True,,False,False,False,True,True
+turbine_degradation_49_60,TURBINE_DEGRADATION,True,,False,False,False,True,True
+efficiency_loss_50_60,EFFICIENCY_LOSS,True,,False,False,False,True,True
+temperature_degradation_51_60,TEMPERATURE_DEGRADATION,True,,False,False,False,True,True
+pressure_degradation_52_60,PRESSURE_DEGRADATION,True,,False,False,False,True,True

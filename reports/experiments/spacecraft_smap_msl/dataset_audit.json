@@ -1,0 +1,10 @@
+{
+  "status": "DATA_REQUIRED",
+  "source": "NASA SMAP/MSL anomaly benchmark; official source and license must be verified before acquisition",
+  "root": "C:\\Users\\rajat\\AERIS-X\\data\\raw\\SMAP_MSL",
+  "files": [],
+  "schema": null,
+  "labels": null,
+  "split": "temporal/channel-level; normal training only; validation threshold calibration",
+  "reason": "No SMAP/MSL files were found locally."
+}

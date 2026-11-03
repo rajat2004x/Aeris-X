@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import numpy as np
 import pytest
 import torch
@@ -5,9 +7,12 @@ from torch import nn
 from torch.utils.data import DataLoader
 
 from aeris.evaluation.metrics import phm_score
+from aeris.evaluation.temporal_benchmark import _load_classical_reference
 from aeris.models.temporal import GRURegressor, LSTMRegressor, TCNRegressor, TransformerRegressor
 from aeris.training.datasets import TemporalDataset
 from aeris.training.trainer import Trainer, select_device
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 @pytest.fixture
@@ -48,3 +53,14 @@ def test_trainer_executes_tiny_training_step(sample_data, tmp_path):
 def test_device_selection_and_existing_phm_metric():
     assert select_device().type in {"cpu", "cuda"}
     assert phm_score(np.array([1.0]), np.array([1.0])) == pytest.approx(0.0)
+
+
+def test_step7_reference_has_reproducible_evaluation_metadata():
+    reference = _load_classical_reference(
+        ROOT / "reports/experiments/step8_temporal_dl",
+        validation_size=2627,
+    )
+    assert reference["mae"] == pytest.approx(18.698258043515352)
+    assert reference["training_time_seconds"] > 0
+    assert reference["inference_time_seconds"] > 0
+    assert reference["model_size_mb"] > 0
